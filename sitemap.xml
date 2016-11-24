@@ -1,0 +1,165 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+   <url>
+      <loc>http://www.prored.com.ar/</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/layout/prored/img/logo.png
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/institucional/nosotros</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/layout/prored/img/logo.png
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/institucional/logo</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/index/img/proredSignificado.png
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/institucional/fotos</loc>
+      <changefreq>yearly</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/institucional/fotos/thumbnails/foto35.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios</loc>
+      <changefreq>yearly</changefreq>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/homero</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/homero/foto19.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/electrolum</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/electrolum/foto3.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/horizonte</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/horizonte/foto5.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/horizonte-luz</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/horizonte-luz/foto4.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/lograsso</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/lograsso/foto9.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/zelectricidad-santarosa</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/zelectricidad-santarosa/foto41.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/zelectricidad-toay</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/zelectricidad-toay/foto3.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/zelectricidad-generalpico</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/zelectricidad-generalpico/foto3.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/zelectricidad-trenquelauquen</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/zelectricidad-trenquelauquen/foto1.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/zelectricidad-pehuajo</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+           http://www.prored.com.ar/views/socios/fotos/zelectricidad-pehuajo/foto6.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/proveedores</loc>
+      <changefreq>never</changefreq>
+   </url>
+   
+   
+   <url>
+      <loc>http://www.prored.com.ar/contacto/sumate</loc>
+      <changefreq>never</changefreq>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/contacto</loc>
+      <changefreq>never</changefreq>
+   </url>
+   
+   
+   
+</urlset>
