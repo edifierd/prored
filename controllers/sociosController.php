@@ -10,41 +10,114 @@ class sociosController extends Controller
         parent::__construct();
 		
 		$this->socios = array (
-				  	array(
-						'id' => 'homero',
-						'img' => 'foto19',
-						'logo' => 'homero',
-						'numFotos' => 19,
-						'razonSocial' => 'Homero & CIA',
-						'tel' => '+54 0297 4481748',
-						'web' => 'www.homerosrl.com.ar',
-						'correo' => 'gustavo@homerosrl.com.ar',
-						'ciudad' => 'Comodoro Rivadavia',
-						'provincia' => 'Chubut',
-						'calle' => 'Av H Yrigoyen 3226',
-						'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.06373856185!2d-67.53433608255617!3d-45.89003829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde5ab4c86a1d4d7%3A0x55c107a714b34db3!2sHomero+%26+Cia+SRL!5e0!3m2!1ses!2sar!4v1470079288808',
+		
+					array(
+						'id' => 'todoluz',
+						'img' => 'foto10',
+						'logo' => 'todoluz',
+						'numFotos' => 12,
+						'razonSocial' => 'Todoluz',
+						'tel' => '+54 (0298) 442-5640 / 442-4996 / 443-3050 <br> Fax y Lineas rotativas',
+						'web' => 'www.todoluz.com.ar',
+						'correo' => 'todoluz@todoluz.com.ar',
+						'ciudad' => 'General Roca',
+						'provincia' => 'Río Negro',
+						'calle' => 'Av. J. A. Roca 525',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12395.753215589062!2d-67.5780976!3d-39.0395261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a1d3661760ddf%3A0x779425eef6904c8a!2sAv.+Gral.+Julio+Argentino+Roca+525%2C+Gral.+Roca%2C+R%C3%ADo+Negro!5e0!3m2!1ses!2sar!4v1489167516805',
 						'marcado' => '
 							<script type="application/ld+json">
 {
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
-  "name" : "Homero & CIA",
-  "image" : "http://www.prored.com.ar/views/socios/img/homero.jpg",
-  "telephone" : "+54 0297 4481748",
-  "email" : "gustavo@homerosrl.com.ar",
+  "name" : "Todo Luz",
+  "image" : "http://www.prored.com.ar/views/socios/img/todoluz.jpg",
+  "telephone" : "+54 (0298) 442-5640",
+  "email" : "todoluz@todoluz.com.ar",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "Av H Yrigoyen 3226",
-    "addressLocality" : "Comodoro Rivadavia",
-    "addressRegion" : "Chubut",
+    "streetAddress" : "Av. J. A. Roca 525",
+    "addressLocality" : "General Roca",
+    "addressRegion" : "Río Negro",
     "addressCountry" : "Argentina"
   },
-  "url" : "http://www.prored.com.ar/socios/socio/homero"
+  "url" : "http://www.prored.com.ar/socios/socio/todoluz"
 }
 </script>
-						' 
+						'
 					),
 					
+					array(
+						'id' => 'electricidad-lavalle',
+						'img' => 'foto15',
+						'logo' => 'electricidad-lavalle',
+						'numFotos' => 18,
+						'razonSocial' => 'Electricidad Lavalle',
+						'tel' => '+54 2314-427278 ',
+						'web' => '',
+						'correo' => 'electricidadlavalle@hotmail.com electricidadlavalle@yahoo.com.ar',
+						'ciudad' => 'Bolivar',
+						'provincia' => 'Buenos Aires',
+						'calle' => 'Materiales Eléctricos y Construcción:<br> Bartolome Mitre 550 entre Las Heras y Alvear <br> Próximamente: Juan Manuel de Rosas 750',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.568936655362!2d-61.113622170763605!3d-36.23279499875433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bfe31693447227%3A0xbe1b08ddea1a95d9!2sBartolom%C3%A9+Mitre+521%2C+B6550BMF+San+Carlos+de+Bolivar%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1ses!2sus!4v1490209304484',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Electrolum",
+  "image" : "http://www.prored.com.ar/views/socios/img/electricidad-lavalle.jpg",
+  "telephone" : "+54 2314-427278",
+  "email" : "electricidadlavalle@hotmail.com",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Bartolomé Mitre 550",
+    "addressLocality" : "General Lavalle",
+    "addressRegion" : "Buenos Aires",
+    "addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/electricidad-lavalle"
+}
+</script>
+						'
+					),
+					
+					
+					array(
+						'id' => 'electricidad-lavalle-iluminacion',
+						'img' => 'foto1',
+						'logo' => 'electricidad-lavalle',
+						'numFotos' => 13,
+						'razonSocial' => 'Electricidad Lavalle (Iluminación)',
+						'tel' => '+54 2314-427278 ',
+						'web' => '',
+						'correo' => 'electricidadlavalle@hotmail.com electricidadlavalle@yahoo.com.ar',
+						'ciudad' => 'Bolivar',
+						'provincia' => 'Buenos Aires',
+						'calle' => 'Sarmiento 758 entre Almirante Brown y Av. Belgrano',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.6122114182825!2d-61.113165670747556!3d-36.228586898754386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bfe3148b8b8af3%3A0x55568786d75324d7!2sDomingo+Faustino+Sarmiento+769%2C+B6550CKO+San+Carlos+de+Bolivar%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1ses!2sus!4v1490209485032',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Electrolum",
+  "image" : "http://www.prored.com.ar/views/socios/img/electricidad-lavalle.jpg",
+  "telephone" : "+54 02972 428222",
+  "email" : "electricidadlavalle@hotmail.com",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Sarmiento 758",
+    "addressLocality" : "General Lavalle",
+    "addressRegion" : "Buenos Aires",
+    "addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/electrolum"
+}
+</script>
+						'
+					),
+					
+
 					array(
 						'id' => 'electrolum',
 						'img' => 'foto3',
@@ -219,6 +292,41 @@ class sociosController extends Controller
 					),
 					
 					array(
+						'id' => 'zelectricidad-eduardo-castex',
+						'img' => 'foto1',
+						'logo' => 'zelectricidad',
+						'numFotos' => 6,
+						'razonSocial' => 'Z Electricidad Eduardo Castex',
+						'tel' => '+54 02334 442956',
+						'web' => 'www.zelectricidad.com.ar',
+						'correo' => 'ventascastex@zelectricidad.com.ar',
+						'ciudad' => 'Eduardo Castex',
+						'provincia' => 'La Pampa',
+						'calle' => 'Diagonal San Martin 750',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25850.5749421666!2d-64.30868687449487!3d-35.91462087898051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c352ed54f12e33%3A0x4afd5fe747818bc4!2sEduardo+Castex%2C+La+Pampa!5e0!3m2!1ses!2sar!4v1489175159827',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Z Electricidad Eduardo Castex",
+  "image" : "http://www.prored.com.ar/views/socios/img/zelectricidad.jpg",
+  "telephone" : "+54 02334 442956",
+  "email" : "ventascastex@zelectricidad.com.ar",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Diagonal San Martin 750",
+    "addressLocality" : "Eduardo Castex",
+    "addressRegion" : "La Pampa",
+    "addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/zelectricidad-eduardo-castex"
+}
+</script>
+						'	
+					),
+					
+					array(
 						'id' => 'zelectricidad-toay',
 						'img' => 'foto3',
 						'logo' => 'zelectricidad',
@@ -293,7 +401,7 @@ class sociosController extends Controller
 						'img' => 'foto1',
 						'logo' => 'zelectricidad',
 						'numFotos' => 9,
-						'razonSocial' => 'Z Electricidad Trenque Lauquen',
+						'razonSocial' => 'Z Elec. Trenque Lauquen',
 						'tel' => '+54 02391 43-0834',
 						'web' => 'www.zelectricidad.com.ar',
 						'correo' => 'consultastl@zelectricidad.com.ar',
@@ -390,6 +498,42 @@ class sociosController extends Controller
 						'gmaps' => '',
 						'marcado' => ''
 					),
+					
+					array(
+						'id' => '#',
+						'img' => 'foto19',
+						'logo' => 'prored',
+						'numFotos' => 19,
+						'razonSocial' => 'Homero & CIA',
+						'tel' => '+54 0297 4481748',
+						'web' => 'www.homerosrl.com.ar',
+						'correo' => 'gustavo@homerosrl.com.ar',
+						'ciudad' => '',
+						'provincia' => '',
+						'calle' => 'Av H Yrigoyen 3226',
+						'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.06373856185!2d-67.53433608255617!3d-45.89003829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde5ab4c86a1d4d7%3A0x55c107a714b34db3!2sHomero+%26+Cia+SRL!5e0!3m2!1ses!2sar!4v1470079288808',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Homero & CIA",
+  "image" : "http://www.prored.com.ar/views/socios/img/homero.jpg",
+  "telephone" : "+54 0297 4481748",
+  "email" : "gustavo@homerosrl.com.ar",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Av H Yrigoyen 3226",
+    "addressLocality" : "Comodoro Rivadavia",
+    "addressRegion" : "Chubut",
+    "addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/homero"
+}
+</script>
+						' 
+					)
+					
 				  );
     }
     

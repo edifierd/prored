@@ -47,11 +47,6 @@
    <url>
       <loc>http://www.prored.com.ar/socios/socio/homero</loc>
       <changefreq>never</changefreq>
-      <image:image>
-         <image:loc>
-            http://www.prored.com.ar/views/socios/fotos/homero/foto19.jpg
-         </image:loc>
-      </image:image>
    </url>
    
    <url>
@@ -60,6 +55,36 @@
       <image:image>
          <image:loc>
             http://www.prored.com.ar/views/socios/fotos/electrolum/foto3.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/todoluz</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/todoluz/foto10.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/electricidad-lavalle</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/electricidad-lavalle/foto15.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+   <url>
+      <loc>http://www.prored.com.ar/socios/socio/electricidad-lavalle-iluminacion</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+            http://www.prored.com.ar/views/socios/fotos/electricidad-lavalle-iluminacion/foto1.jpg
          </image:loc>
       </image:image>
    </url>
@@ -140,6 +165,16 @@
       <image:image>
          <image:loc>
            http://www.prored.com.ar/views/socios/fotos/zelectricidad-pehuajo/foto6.jpg
+         </image:loc>
+      </image:image>
+   </url>
+   
+    <url>
+      <loc>http://www.prored.com.ar/socios/socio/zelectricidad-eduardo-castex</loc>
+      <changefreq>never</changefreq>
+      <image:image>
+         <image:loc>
+           http://www.prored.com.ar/views/socios/fotos/zelectricidad-eduardo-castex/foto1.jpg
          </image:loc>
       </image:image>
    </url>

@@ -1,8 +1,7 @@
 <?php
 
 
-class proveedoresController extends Controller
-{    
+class proveedoresController extends Controller{    
 
 	private $proveedores;
 	
