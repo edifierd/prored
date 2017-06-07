@@ -10,7 +10,42 @@ class sociosController extends Controller
         parent::__construct();
 		
 		$this->socios = array (
-		
+					
+					array(
+						'id' => 'rigelec',
+						'img' => 'foto22',
+						'logo' => 'rigelec',
+						'numFotos' => 22,
+						'razonSocial' => 'Rigelec',
+						'tel' => '0345- 4219940 Linea Rotativa',
+						'web' => 'www.rigelec.com.ar',
+						'correo' => 'info@rigelec.com.ar',
+						'ciudad' => 'Concordia',
+						'provincia' => 'Entre Rios',
+						'calle' => 'Las Heras 331',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.955098886008!2d-58.0251515848526!3d-31.38780158141364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ade8113fed9bbf%3A0x9ae3b5bdb6a62f95!2sAv.+Las+Heras+331%2C+E3202+Concordia%2C+Entre+R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1496799481048',
+						'marcado' => '
+							<script type="application/ld+json">
+							{
+							  "@context" : "http://schema.org",
+							  "@type" : "LocalBusiness",
+							  "name" : "Rigelec",
+							  "image" : "http://www.prored.com.ar/views/socios/img/rigelec.jpg",
+							  "telephone" : "+54 (0345) 421-9940",
+							  "email" : "info@rigelec.com.ar",
+							  "address" : {
+								"@type" : "PostalAddress",
+								"streetAddress" : "Las Heras 331",
+								"addressLocality" : "Concordia",
+								"addressRegion" : "Entre Rios",
+								"addressCountry" : "Argentina"
+							  },
+							  "url" : "http://www.prored.com.ar/socios/socio/rigelec"
+							}
+							</script>
+						' 
+					),
+							
 					array(
 						'id' => 'todoluz',
 						'img' => 'foto10',
