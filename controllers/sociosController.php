@@ -10,6 +10,37 @@ class sociosController extends Controller
         parent::__construct();
 		
 		$this->socios = array (
+			
+			array(
+ 						'id' => 'homero',
+ 						'img' => 'foto19',
+ 						'logo' => 'homero',
+ 						'numFotos' => 19,
+ 						'razonSocial' => 'Homero & CIA',
+ 						'tel' => '+54 0297 4481748',
+ 						'web' => 'www.homerosrl.com.ar',
+ 						'correo' => 'gustavo@homerosrl.com.ar',
+ 						'ciudad' => 'Comodoro Rivadavia',
+ 						'provincia' => 'Chubut',
+ 						'calle' => 'Av H Yrigoyen 3226',
+ 						'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.06373856185!2d-67.53433608255617!3d-45.89003829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde5ab4c86a1d4d7%3A0x55c107a714b34db3!2sHomero+%26+Cia+SRL!5e0!3m2!1ses!2sar!4v1470079288808',
+'marcado' => '
+  							<script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "LocalBusiness",
+ "name" : "Homero & CIA",
+ "image" : "http://www.prored.com.ar/views/socios/img/homero.jpg",
+   "telephone" : "+54 0297 4481748",
+ "email" : "gustavo@homerosrl.com.ar",
+"address" : {
+      "@type" : "PostalAddress",
+ "streetAddress" : "Av H Yrigoyen 3226",
+    "addressLocality" : "Comodoro Rivadavia",
+   "addressRegion" : "Chubut",
+ "addressCountry" : "Argentina"
+  "url" : "http://www.prored.com.ar/socios/socio/homero"
+  </script>'),
 					
 					array(
 						'id' => 'rigelec',
