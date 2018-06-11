@@ -1,15 +1,51 @@
 <?php
 
 class sociosController extends Controller
-{    
+{
 
 	private $socios;
-	
-    public function __construct() 
+
+    public function __construct()
     {
         parent::__construct();
-		
+
 		$this->socios = array (
+
+					  	array(
+							'id' => 'grelectro',
+							'img' => 'foto1',
+							'logo' => 'grelectro',
+							'numFotos' => 5,
+							'razonSocial' => 'GR Electro',
+							'tel' => '+54 (0237) 485 3824 - (02323) 43 5556',
+							'web' => 'www.grelectro.com',
+							'correo' => 'info@grelectro.com',
+							'ciudad' => 'General Rodríguez',
+							'provincia' => 'Buenos Aires',
+							'calle' => '2 de abril 1078',
+							'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9983.573589349653!2d-58.94357832123027!3d-34.60786688534228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe80bbb321225cab0!2sGR+Electro!5e0!3m2!1ses-419!2sar!4v1528760324283',
+							'marcado' => '
+								<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "LocalBusiness",
+	  "name" : "GR Electro",
+	  "image" : "http://www.prored.com.ar/views/socios/img/grelectro.jpg",
+	  "telephone" : "+54 0237 485 3824",
+	  "email" : "info@grelectro.com",
+	  "address" : {
+	    "@type" : "PostalAddress",
+	    "streetAddress" : "2 de abril 1078",
+	    "addressLocality" : "General Rodríguez",
+	    "addressRegion" : "Buenos Aires",
+	    "addressCountry" : "Argentina"
+	  },
+	  "url" : "http://www.prored.com.ar/socios/socio/grelectro"
+	}
+	</script>
+							'
+						),
+
 				  	array(
 						'id' => 'homero',
 						'img' => 'foto19',
@@ -42,9 +78,9 @@ class sociosController extends Controller
   "url" : "http://www.prored.com.ar/socios/socio/homero"
 }
 </script>
-						' 
+						'
 					),
-					
+
 					array(
 						'id' => 'electrolum',
 						'img' => 'foto3',
@@ -79,7 +115,7 @@ class sociosController extends Controller
 </script>
 						'
 					),
-					
+
 					array(
 						'id' => 'horizonte',
 						'img' => 'foto5',
@@ -113,7 +149,7 @@ class sociosController extends Controller
 </script>
 						'
 					),
-					
+
 					array(
 						'id' => 'horizonte-luz',
 						'img' => 'foto4',
@@ -145,9 +181,9 @@ class sociosController extends Controller
   "url" : "http://www.prored.com.ar/socios/socio/horizonte-luz"
 }
 </script>
-						' 
+						'
 					),
-					
+
 					array(
 						'id' => 'lograsso',
 						'img' => 'foto9',
@@ -182,7 +218,7 @@ class sociosController extends Controller
 </script>
 						'
 					),
-					
+
 					array(
 						'id' => 'zelectricidad-santarosa',
 						'img' => 'foto41',
@@ -215,9 +251,9 @@ class sociosController extends Controller
   "url" : "http://www.prored.com.ar/socios/socio/zelectricidad-santarosa"
 }
 </script>
-						'	
+						'
 					),
-					
+
 					array(
 						'id' => 'zelectricidad-toay',
 						'img' => 'foto3',
@@ -252,7 +288,7 @@ class sociosController extends Controller
 </script>
 						'
 					),
-					
+
 					array(
 						'id' => 'zelectricidad-generalpico',
 						'img' => 'foto3',
@@ -287,7 +323,7 @@ class sociosController extends Controller
 </script>
 						'
 					),
-					
+
 					array(
 						'id' => 'zelectricidad-trenquelauquen',
 						'img' => 'foto1',
@@ -322,7 +358,7 @@ class sociosController extends Controller
 </script>
 						'
 					),
-					
+
 					array(
 						'id' => 'zelectricidad-pehuajo',
 						'img' => 'foto6',
@@ -356,9 +392,9 @@ class sociosController extends Controller
 }
 </script>
 						'
-						
+
 					),
-					
+
 					array(
 						'id' => '#',
 						'img' => 'foto2',
@@ -372,9 +408,9 @@ class sociosController extends Controller
 						'provincia' => '',
 						'calle' => '',
 						'gmaps' => '',
-						'marcado' => '' 
+						'marcado' => ''
 					),
-					
+
 					array(
 						'id' => '#',
 						'img' => 'foto2',
@@ -392,22 +428,22 @@ class sociosController extends Controller
 					),
 				  );
     }
-    
+
     public function index(){
 		$this->_view->assign('titulo', 'Socios - ProRed Argentina');
 		$this->_view->assign('marcado', '' );
-		$this->_view->assign('description', 'Listado de Socios ProRed Argentina - Distribuidores de materiales electricos de ProRed estratégicamente ubicados en las ciudades más importantes de 
+		$this->_view->assign('description', 'Listado de Socios ProRed Argentina - Distribuidores de materiales electricos de ProRed estratégicamente ubicados en las ciudades más importantes de
 		Argentina. ');
 		$this->_view->assign('keywords', 'ProRed Argentina','ProRed, organización, grupo, distribuidores materiales, electricos, ciudades, argentina, pro, red, socio, distribuidor, materiales, electricos');
 		$this->_view->setCss(array("estilosIndex"));
 		$this->_view->assign('socios', $this->socios );
         $this->_view->renderizar('index', 'socios');
 	}
-	
+
 	public function socio(){
 		$id = $this->getParams();
 		$id = $id[0];
-		if ($this->esValido($id, $this->socios)){  
+		if ($this->esValido($id, $this->socios)){
 			$socio = $this->getElem($id,$this->socios);
 			$this->_view->assign('titulo', $socio['razonSocial'] .' - ProRed Argentina');
 			$this->_view->assign('marcado', $socio['marcado'] );
@@ -419,7 +455,7 @@ class sociosController extends Controller
 			$this->index();
 		}
 	}
-	
+
 	private function esValido($id, $socios){
 		foreach ($socios as $valor){
 			if($valor['id'] == $id)
@@ -427,7 +463,7 @@ class sociosController extends Controller
 		}
 		return false;
 	}
-	
+
 	private function getElem($id, $socios){
 		foreach ($socios as $valor){
 			if($valor['id'] == $id)
