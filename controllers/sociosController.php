@@ -64,18 +64,18 @@ class sociosController extends Controller
 {
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
-  "name" : "Homero & CIA",
-  "image" : "http://www.prored.com.ar/views/socios/img/homero.jpg",
-  "telephone" : "+54 0297 4481748",
-  "email" : "gustavo@homerosrl.com.ar",
+  "name" : "Todo Luz",
+  "image" : "http://www.prored.com.ar/views/socios/img/todoluz.jpg",
+  "telephone" : "+54 (0298) 442-5640",
+  "email" : "todoluz@todoluz.com.ar",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "Av H Yrigoyen 3226",
-    "addressLocality" : "Comodoro Rivadavia",
-    "addressRegion" : "Chubut",
+    "streetAddress" : "Av. J. A. Roca 525",
+    "addressLocality" : "General Roca",
+    "addressRegion" : "Río Negro",
     "addressCountry" : "Argentina"
   },
-  "url" : "http://www.prored.com.ar/socios/socio/homero"
+  "url" : "http://www.prored.com.ar/socios/socio/todoluz"
 }
 </script>
 						'
@@ -255,6 +255,41 @@ class sociosController extends Controller
 					),
 
 					array(
+						'id' => 'zelectricidad-eduardo-castex',
+						'img' => 'foto1',
+						'logo' => 'zelectricidad',
+						'numFotos' => 6,
+						'razonSocial' => 'Z Electricidad Eduardo Castex',
+						'tel' => '+54 02334 442956',
+						'web' => 'www.zelectricidad.com.ar',
+						'correo' => 'ventascastex@zelectricidad.com.ar',
+						'ciudad' => 'Eduardo Castex',
+						'provincia' => 'La Pampa',
+						'calle' => 'Diagonal San Martin 750',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25850.5749421666!2d-64.30868687449487!3d-35.91462087898051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c352ed54f12e33%3A0x4afd5fe747818bc4!2sEduardo+Castex%2C+La+Pampa!5e0!3m2!1ses!2sar!4v1489175159827',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Z Electricidad Eduardo Castex",
+  "image" : "http://www.prored.com.ar/views/socios/img/zelectricidad.jpg",
+  "telephone" : "+54 02334 442956",
+  "email" : "ventascastex@zelectricidad.com.ar",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Diagonal San Martin 750",
+    "addressLocality" : "Eduardo Castex",
+    "addressRegion" : "La Pampa",
+    "addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/zelectricidad-eduardo-castex"
+}
+</script>
+						'
+					),
+
+					array(
 						'id' => 'zelectricidad-toay',
 						'img' => 'foto3',
 						'logo' => 'zelectricidad',
@@ -329,7 +364,7 @@ class sociosController extends Controller
 						'img' => 'foto1',
 						'logo' => 'zelectricidad',
 						'numFotos' => 9,
-						'razonSocial' => 'Z Electricidad Trenque Lauquen',
+						'razonSocial' => 'Z Elec. Trenque Lauquen',
 						'tel' => '+54 02391 43-0834',
 						'web' => 'www.zelectricidad.com.ar',
 						'correo' => 'consultastl@zelectricidad.com.ar',
@@ -426,6 +461,42 @@ class sociosController extends Controller
 						'gmaps' => '',
 						'marcado' => ''
 					),
+
+					array(
+						'id' => '#',
+						'img' => 'foto19',
+						'logo' => 'prored',
+						'numFotos' => 19,
+						'razonSocial' => 'Homero & CIA',
+						'tel' => '+54 0297 4481748',
+						'web' => 'www.homerosrl.com.ar',
+						'correo' => 'gustavo@homerosrl.com.ar',
+						'ciudad' => '',
+						'provincia' => '',
+						'calle' => 'Av H Yrigoyen 3226',
+						'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.06373856185!2d-67.53433608255617!3d-45.89003829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde5ab4c86a1d4d7%3A0x55c107a714b34db3!2sHomero+%26+Cia+SRL!5e0!3m2!1ses!2sar!4v1470079288808',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Homero & CIA",
+  "image" : "http://www.prored.com.ar/views/socios/img/homero.jpg",
+  "telephone" : "+54 0297 4481748",
+  "email" : "gustavo@homerosrl.com.ar",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Av H Yrigoyen 3226",
+    "addressLocality" : "Comodoro Rivadavia",
+    "addressRegion" : "Chubut",
+    "addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/homero"
+}
+</script>
+						'
+					)
+
 				  );
     }
 
