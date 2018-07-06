@@ -400,7 +400,7 @@ class sociosController extends Controller
 						'logo' => 'zelectricidad',
 						'numFotos' => 9,
 						'razonSocial' => 'Z Electricidad Pehuajó',
-						'tel' => '+54 02954 416500',
+						'tel' => '+54 02396 476026',
 						'web' => 'www.zelectricidad.com.ar',
 						'correo' => 'consultasph@zelectricidad.com.ar',
 						'ciudad' => 'Pehuajó',
