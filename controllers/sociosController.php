@@ -11,7 +11,42 @@ class sociosController extends Controller
 
 		$this->socios = array (
 
-					  	array(
+			array(
+						'id' => 'los-toldos',
+						'img' => 'foto5',
+						'logo' => 'los-toldos',
+						'numFotos' => 10,
+						'razonSocial' => 'Nicolas Santana Marrero "Electro Los Toldos"',
+						'tel' => '+54 (02355) 15 - 417113 / 417135 / 418073',
+						'web' => '',
+						'correo' => 'electro.lostoldos@gmail.com',
+						'ciudad' => 'General Viamonte',
+						'provincia' => 'Buenos Aires',
+						'calle' => 'Dean Funes 863',
+						'gmaps' =>	'',
+						'marcado' => '
+							<script type="application/ld+json">
+			{
+			"@context" : "http://schema.org",
+			"@type" : "LocalBusiness",
+			"name" : "Electro Los Toldos",
+			"image" : "http://www.prored.com.ar/views/socios/img/los-toldos.jpg",
+			"telephone" : "+54 02355 15 - 417113",
+			"email" : "electro.lostoldos@gmail.com",
+			"address" : {
+			"@type" : "PostalAddress",
+			"streetAddress" : "Dean Funes 863",
+			"addressLocality" : "General Viamonte",
+			"addressRegion" : "Buenos Aires",
+			"addressCountry" : "Argentina"
+			},
+			"url" : "http://www.prored.com.ar/socios/socio/los-toldos"
+			}
+			</script>
+						'
+					),
+
+		    	array(
 							'id' => 'grelectro',
 							'img' => 'foto1',
 							'logo' => 'grelectro',
@@ -46,6 +81,115 @@ class sociosController extends Controller
 							'
 						),
 
+
+					array(
+						'id' => 'rigelec',
+						'img' => 'foto22',
+						'logo' => 'rigelec',
+						'numFotos' => 27,
+						'razonSocial' => 'Rigelec',
+						'tel' => '0345- 4219940 Linea Rotativa',
+						'web' => 'www.rigelec.com.ar',
+						'correo' => 'info@rigelec.com.ar',
+						'ciudad' => 'Concordia',
+						'provincia' => 'Entre Rios',
+						'calle' => 'Las Heras 331',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.955098886008!2d-58.0251515848526!3d-31.38780158141364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ade8113fed9bbf%3A0x9ae3b5bdb6a62f95!2sAv.+Las+Heras+331%2C+E3202+Concordia%2C+Entre+R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1496799481048',
+						'marcado' => '
+							<script type="application/ld+json">
+							{
+							  "@context" : "http://schema.org",
+							  "@type" : "LocalBusiness",
+							  "name" : "Rigelec",
+							  "image" : "http://www.prored.com.ar/views/socios/img/rigelec.jpg",
+							  "telephone" : "+54 (0345) 421-9940",
+							  "email" : "info@rigelec.com.ar",
+							  "address" : {
+								"@type" : "PostalAddress",
+								"streetAddress" : "Las Heras 331",
+								"addressLocality" : "Concordia",
+								"addressRegion" : "Entre Rios",
+								"addressCountry" : "Argentina"
+							  },
+							  "url" : "http://www.prored.com.ar/socios/socio/rigelec"
+							}
+							</script>
+						'
+					),
+
+					array(
+						'id' => 'electricidad-lavalle',
+						'img' => 'foto15',
+						'logo' => 'electricidad-lavalle',
+						'numFotos' => 18,
+						'razonSocial' => 'Electricidad Lavalle',
+						'tel' => '+54 2314-427278 ',
+						'web' => '',
+						'correo' => 'electricidadlavalle@hotmail.com electricidadlavalle@yahoo.com.ar',
+						'ciudad' => 'Bolivar',
+						'provincia' => 'Buenos Aires',
+						'calle' => 'Materiales Eléctricos y Construcción:<br> Bartolome Mitre 550 entre Las Heras y Alvear <br> Próximamente: Juan Manuel de Rosas 750',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.568936655362!2d-61.113622170763605!3d-36.23279499875433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bfe31693447227%3A0xbe1b08ddea1a95d9!2sBartolom%C3%A9+Mitre+521%2C+B6550BMF+San+Carlos+de+Bolivar%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1ses!2sus!4v1490209304484',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Electricidad Lavalle",
+  "image" : "http://www.prored.com.ar/views/socios/img/electricidad-lavalle.jpg",
+  "telephone" : "+54 2314-427278",
+  "email" : "electricidadlavalle@hotmail.com",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Bartolomé Mitre 550",
+    "addressLocality" : "General Lavalle",
+    "addressRegion" : "Buenos Aires",
+    "addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/electricidad-lavalle"
+}
+</script>
+						'
+					),
+
+
+					array(
+						'id' => 'electricidad-lavalle-iluminacion',
+						'img' => 'foto1',
+						'logo' => 'electricidad-lavalle',
+						'numFotos' => 13,
+						'razonSocial' => 'Electricidad Lavalle (Iluminación)',
+						'tel' => '+54 2314-427278 ',
+						'web' => '',
+						'correo' => 'electricidadlavalle@hotmail.com electricidadlavalle@yahoo.com.ar',
+						'ciudad' => 'Bolivar',
+						'provincia' => 'Buenos Aires',
+						'calle' => 'Sarmiento 758 entre Almirante Brown y Av. Belgrano',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.6122114182825!2d-61.113165670747556!3d-36.228586898754386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bfe3148b8b8af3%3A0x55568786d75324d7!2sDomingo+Faustino+Sarmiento+769%2C+B6550CKO+San+Carlos+de+Bolivar%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1ses!2sus!4v1490209485032',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Electricidad Lavalle (Iluminación)",
+  "image" : "http://www.prored.com.ar/views/socios/img/electricidad-lavalle.jpg",
+  "telephone" : "+54 02972 428222",
+  "email" : "electricidadlavalle@hotmail.com",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Sarmiento 758",
+    "addressLocality" : "General Lavalle",
+    "addressRegion" : "Buenos Aires",
+    "addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/electricidad-lavalle-iluminacion"
+}
+</script>
+						'
+					),
+
+
+
 				  	array(
 						'id' => 'homero',
 						'img' => 'foto19',
@@ -64,53 +208,18 @@ class sociosController extends Controller
 {
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
-  "name" : "Todo Luz",
-  "image" : "http://www.prored.com.ar/views/socios/img/todoluz.jpg",
-  "telephone" : "+54 (0298) 442-5640",
-  "email" : "todoluz@todoluz.com.ar",
+  "name" : "Homero & CIA",
+  "image" : "http://www.prored.com.ar/views/socios/img/homero.jpg",
+  "telephone" : "+54 0297 4481748",
+  "email" : "gustavo@homerosrl.com.ar",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "Av. J. A. Roca 525",
-    "addressLocality" : "General Roca",
-    "addressRegion" : "Río Negro",
+    "streetAddress" : "Av H Yrigoyen 3226",
+    "addressLocality" : "Comodoro Rivadavia",
+    "addressRegion" : "Chubut",
     "addressCountry" : "Argentina"
   },
-  "url" : "http://www.prored.com.ar/socios/socio/todoluz"
-}
-</script>
-						'
-					),
-
-					array(
-						'id' => 'electrolum',
-						'img' => 'foto3',
-						'logo' => 'electrolum',
-						'numFotos' => 19,
-						'razonSocial' => 'Electrolum',
-						'tel' => '+54 02972 428222',
-						'web' => '',
-						'correo' => 'electrolum@smandes.com.ar',
-						'ciudad' => 'San Martin De los Andes',
-						'provincia' => 'Neuquén',
-						'calle' => 'Perito Moreno 910, esquina Belgrano',
-						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.7264742194805!2d-71.35152825757842!3d-40.15446783145114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96110e76f6fdfe83%3A0xcadb25afa6170d9e!2sElectrolum!5e0!3m2!1ses!2sar!4v1470079433575',
-						'marcado' => '
-							<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Electrolum",
-  "image" : "http://www.prored.com.ar/views/socios/img/electrolum.jpg",
-  "telephone" : "+54 02972 428222",
-  "email" : "electrolum@smandes.com.ar",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Perito Moreno 910, esquina Belgrano",
-    "addressLocality" : "San Martin De los Andes",
-    "addressRegion" : "Neuquén",
-    "addressCountry" : "Argentina"
-  },
-  "url" : "http://www.prored.com.ar/socios/socio/electrolum"
+  "url" : "http://www.prored.com.ar/socios/socio/homero"
 }
 </script>
 						'
@@ -118,16 +227,16 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'horizonte',
-						'img' => 'foto5',
+						'img' => 'foto2',
 						'logo' => 'horizonte',
-						'numFotos' => 9,
+						'numFotos' => 3,
 						'razonSocial' => 'Horizonte',
-						'tel' => '+54 0388-4253402 / 4257110',
-						'web' => '',
+						'tel' => '+54 0388 4280095',
+						'web' => 'https://www.facebook.com/Horizonte-SRL-1854606997890306/ <br> https://www.horizontesrl.com',
 						'correo' => 'ventas@horizontejujuy.arnetblz.com.ar<br>servicios@horizontejujuy.arnetblz.com.ar',
 						'ciudad' => 'San Salvador de Jujuy',
 						'provincia' => 'Jujuy',
-						'calle' => 'Las heras N°760 - b° 1ro de Marzo',
+						'calle' => 'La Candelaria N°240 Barrio alto Comedero',
 						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1819.6324513790896!2d-65.28880715159346!3d-24.19750023085525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a15301644f0411d!2sHZ+Horizonte!5e0!3m2!1ses!2sar!4v1470079573307',
 						'marcado' => '
 							<script type="application/ld+json">
@@ -135,11 +244,11 @@ class sociosController extends Controller
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
   "name" : "Horizonte",
-  "telephone" : "+54 0388-4253402 / 4257110",
+  "telephone" : "+54 0388 4280095",
   "email" : "ventas@horizontejujuy.arnetblz.com.ar",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "Las heras N°760 - b° 1ro de Marzo",
+    "streetAddress" : "La Candelaria N°240 Barrio alto Comedero",
     "addressLocality" : "San Salvador de Jujuy",
     "addressRegion" : "Jujuy",
     "addressCountry" : "Argentina"
@@ -156,12 +265,12 @@ class sociosController extends Controller
 						'logo' => 'horizonte-añosluz',
 						'numFotos' => 11,
 						'razonSocial' => 'Horizonte Años Luz',
-						'tel' => '+54 0388-4242111 / 4227777',
-						'web' => '',
-						'correo' => 'horizontenecochea@horizontesrl.arnetblz.com.ar',
+						'tel' => '+54 0388 4227777',
+						'web' => 'https://www.horizontesrl.com',
+						'correo' => 'comprasluz248@gmail.com',
 						'ciudad' => 'San Salvador de Jujuy',
 						'provincia' => 'Jujuy',
-						'calle' => 'Gral. Necochea 248',
+						'calle' => 'Urdininea 172',
 						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765.1299228410072!2d-65.30418014136664!3d-24.18604490693721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f417ac3dcff%3A0xdc4006ae68121f88!2sA+os+Luz+Horizonte+SRL!5e0!3m2!1ses!2sar!4v1470079671776',
 						'marcado' => '
 							<script type="application/ld+json">
@@ -169,11 +278,11 @@ class sociosController extends Controller
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
   "name" : "Horizonte Años Luz",
-  "telephone" : "+54 0388-4242111 / 4227777",
-  "email" : "horizontenecochea@horizontesrl.arnetblz.com.ar",
+  "telephone" : "+54 0388 4227777",
+  "email" : "comprasluz248@gmail.com",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "Gral. Necochea 248",
+    "streetAddress" : "Urdininea 172",
     "addressLocality" : "San Salvador de Jujuy",
     "addressRegion" : "Jujuy",
     "addressCountry" : "Argentina"
@@ -221,9 +330,9 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'zelectricidad-santarosa',
-						'img' => 'foto41',
+						'img' => 'foto45',
 						'logo' => 'zelectricidad',
-						'numFotos' => 43,
+						'numFotos' => 46,
 						'razonSocial' => 'Z Electricidad Santa Rosa',
 						'tel' => '+54 02954 416500',
 						'web' => 'www.zelectricidad.com.ar',
@@ -258,7 +367,7 @@ class sociosController extends Controller
 						'id' => 'zelectricidad-eduardo-castex',
 						'img' => 'foto1',
 						'logo' => 'zelectricidad',
-						'numFotos' => 6,
+						'numFotos' => 9,
 						'razonSocial' => 'Z Electricidad Eduardo Castex',
 						'tel' => '+54 02334 442956',
 						'web' => 'www.zelectricidad.com.ar',
@@ -293,7 +402,7 @@ class sociosController extends Controller
 						'id' => 'zelectricidad-toay',
 						'img' => 'foto3',
 						'logo' => 'zelectricidad',
-						'numFotos' => 5,
+						'numFotos' => 6,
 						'razonSocial' => 'Z Electricidad Toay',
 						'tel' => '+54 02954 416500',
 						'web' => 'www.zelectricidad.com.ar',
@@ -328,7 +437,7 @@ class sociosController extends Controller
 						'id' => 'zelectricidad-generalpico',
 						'img' => 'foto3',
 						'logo' => 'zelectricidad',
-						'numFotos' => 11,
+						'numFotos' => 12,
 						'razonSocial' => 'Z Electricidad General Pico',
 						'tel' => '+54 02954 416500',
 						'web' => 'www.zelectricidad.com.ar',
@@ -361,10 +470,10 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'zelectricidad-trenquelauquen',
-						'img' => 'foto1',
+						'img' => 'foto4',
 						'logo' => 'zelectricidad',
-						'numFotos' => 9,
-						'razonSocial' => 'Z Elec. Trenque Lauquen',
+						'numFotos' => 4,
+						'razonSocial' => 'Z Electricidad Trenque Lauquen',
 						'tel' => '+54 02391 43-0834',
 						'web' => 'www.zelectricidad.com.ar',
 						'correo' => 'consultastl@zelectricidad.com.ar',
@@ -396,7 +505,7 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'zelectricidad-pehuajo',
-						'img' => 'foto6',
+						'img' => 'foto10',
 						'logo' => 'zelectricidad',
 						'numFotos' => 9,
 						'razonSocial' => 'Z Electricidad Pehuajó',
@@ -461,42 +570,6 @@ class sociosController extends Controller
 						'gmaps' => '',
 						'marcado' => ''
 					),
-
-					array(
-						'id' => '#',
-						'img' => 'foto19',
-						'logo' => 'prored',
-						'numFotos' => 19,
-						'razonSocial' => 'Homero & CIA',
-						'tel' => '+54 0297 4481748',
-						'web' => 'www.homerosrl.com.ar',
-						'correo' => 'gustavo@homerosrl.com.ar',
-						'ciudad' => '',
-						'provincia' => '',
-						'calle' => 'Av H Yrigoyen 3226',
-						'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.06373856185!2d-67.53433608255617!3d-45.89003829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde5ab4c86a1d4d7%3A0x55c107a714b34db3!2sHomero+%26+Cia+SRL!5e0!3m2!1ses!2sar!4v1470079288808',
-						'marcado' => '
-							<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Homero & CIA",
-  "image" : "http://www.prored.com.ar/views/socios/img/homero.jpg",
-  "telephone" : "+54 0297 4481748",
-  "email" : "gustavo@homerosrl.com.ar",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Av H Yrigoyen 3226",
-    "addressLocality" : "Comodoro Rivadavia",
-    "addressRegion" : "Chubut",
-    "addressCountry" : "Argentina"
-  },
-  "url" : "http://www.prored.com.ar/socios/socio/homero"
-}
-</script>
-						'
-					)
-
 				  );
     }
 
