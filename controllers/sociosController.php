@@ -16,14 +16,14 @@ class sociosController extends Controller
 						'img' => 'foto5',
 						'logo' => 'los-toldos',
 						'numFotos' => 10,
-						'razonSocial' => 'Nicolas Santana Marrero "Electro Los Toldos"',
+						'razonSocial' => 'Electro Los Toldos',
 						'tel' => '+54 (02355) 15 - 417113 / 417135 / 418073',
 						'web' => '',
 						'correo' => 'electro.lostoldos@gmail.com',
 						'ciudad' => 'General Viamonte',
 						'provincia' => 'Buenos Aires',
 						'calle' => 'Dean Funes 863',
-						'gmaps' =>	'',
+						'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.1063595523146!2d-61.044418384802775!3d-35.00404258035772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bf4b5e1034d78b%3A0xc569d98b7a63e844!2sDe%C3%A1n%20Funes%20863%2C%20Los%20Toldos%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1569259127466!5m2!1ses!2sar',
 						'marcado' => '
 							<script type="application/ld+json">
 			{
@@ -119,17 +119,17 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'electricidad-lavalle',
-						'img' => 'foto15',
+						'img' => 'foto1',
 						'logo' => 'electricidad-lavalle',
-						'numFotos' => 18,
+						'numFotos' => 14,
 						'razonSocial' => 'Electricidad Lavalle',
 						'tel' => '+54 2314-427278 ',
 						'web' => '',
 						'correo' => 'electricidadlavalle@hotmail.com electricidadlavalle@yahoo.com.ar',
 						'ciudad' => 'Bolivar',
 						'provincia' => 'Buenos Aires',
-						'calle' => 'Materiales Eléctricos y Construcción:<br> Bartolome Mitre 550 entre Las Heras y Alvear <br> Próximamente: Juan Manuel de Rosas 750',
-						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.568936655362!2d-61.113622170763605!3d-36.23279499875433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bfe31693447227%3A0xbe1b08ddea1a95d9!2sBartolom%C3%A9+Mitre+521%2C+B6550BMF+San+Carlos+de+Bolivar%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1ses!2sus!4v1490209304484',
+						'calle' => 'Av. Juan Manuel de Rosas y Palavecino',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.418222520237!2d-61.13160538472603!3d-36.22933328007022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDEzJzQ1LjYiUyA2McKwMDcnNDUuOSJX!5e0!3m2!1ses!2sar!4v1569258724964!5m2!1ses!2sar',
 						'marcado' => '
 							<script type="application/ld+json">
 {
@@ -141,8 +141,8 @@ class sociosController extends Controller
   "email" : "electricidadlavalle@hotmail.com",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "Bartolomé Mitre 550",
-    "addressLocality" : "General Lavalle",
+    "streetAddress" : "Av. Juan Manuel de Rosas 750",
+    "addressLocality" : "Bolivar",
     "addressRegion" : "Buenos Aires",
     "addressCountry" : "Argentina"
   },
@@ -152,49 +152,11 @@ class sociosController extends Controller
 						'
 					),
 
-
-					array(
-						'id' => 'electricidad-lavalle-iluminacion',
-						'img' => 'foto1',
-						'logo' => 'electricidad-lavalle',
-						'numFotos' => 13,
-						'razonSocial' => 'Electricidad Lavalle (Iluminación)',
-						'tel' => '+54 2314-427278 ',
-						'web' => '',
-						'correo' => 'electricidadlavalle@hotmail.com electricidadlavalle@yahoo.com.ar',
-						'ciudad' => 'Bolivar',
-						'provincia' => 'Buenos Aires',
-						'calle' => 'Sarmiento 758 entre Almirante Brown y Av. Belgrano',
-						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.6122114182825!2d-61.113165670747556!3d-36.228586898754386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bfe3148b8b8af3%3A0x55568786d75324d7!2sDomingo+Faustino+Sarmiento+769%2C+B6550CKO+San+Carlos+de+Bolivar%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1ses!2sus!4v1490209485032',
-						'marcado' => '
-							<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Electricidad Lavalle (Iluminación)",
-  "image" : "http://www.prored.com.ar/views/socios/img/electricidad-lavalle.jpg",
-  "telephone" : "+54 02972 428222",
-  "email" : "electricidadlavalle@hotmail.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Sarmiento 758",
-    "addressLocality" : "General Lavalle",
-    "addressRegion" : "Buenos Aires",
-    "addressCountry" : "Argentina"
-  },
-  "url" : "http://www.prored.com.ar/socios/socio/electricidad-lavalle-iluminacion"
-}
-</script>
-						'
-					),
-
-
-
 				  	array(
 						'id' => 'homero',
 						'img' => 'foto19',
 						'logo' => 'homero',
-						'numFotos' => 19,
+						'numFotos' => 26,
 						'razonSocial' => 'Homero & CIA',
 						'tel' => '+54 0297 4481748',
 						'web' => 'www.homerosrl.com.ar',
@@ -261,9 +223,9 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'horizonte-luz',
-						'img' => 'foto4',
+						'img' => 'foto1',
 						'logo' => 'horizonte-añosluz',
-						'numFotos' => 11,
+						'numFotos' => 7,
 						'razonSocial' => 'Horizonte Años Luz',
 						'tel' => '+54 0388 4227777',
 						'web' => 'https://www.horizontesrl.com',
