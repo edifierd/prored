@@ -13,9 +13,9 @@ class sociosController extends Controller
 
 			array(
 						'id' => 'los-toldos',
-						'img' => 'foto5',
+						'img' => 'foto11',
 						'logo' => 'los-toldos',
-						'numFotos' => 10,
+						'numFotos' => 11,
 						'razonSocial' => 'Electro Los Toldos',
 						'tel' => '+54 (02355) 15 - 417113 / 417135 / 418073',
 						'web' => '',
@@ -189,10 +189,44 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'horizonte',
+						'img' => 'foto5',
+						'logo' => 'horizonte',
+						'numFotos' => 9,
+						'razonSocial' => 'Horizonte',
+						'tel' => '+54 0388-4253402 / 4257110',
+						'web' => '',
+						'correo' => 'ventas@horizontejujuy.arnetblz.com.ar<br>servicios@horizontejujuy.arnetblz.com.ar',
+						'ciudad' => 'San Salvador de Jujuy',
+						'provincia' => 'Jujuy',
+						'calle' => 'Las heras N°760 - b° 1ro de Marzo',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1819.6324513790896!2d-65.28880715159346!3d-24.19750023085525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a15301644f0411d!2sHZ+Horizonte!5e0!3m2!1ses!2sar!4v1470079573307',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Horizonte",
+  "telephone" : "+54 0388-4253402 / 4257110",
+  "email" : "ventas@horizontejujuy.arnetblz.com.ar",
+  "address" : {
+	"@type" : "PostalAddress",
+	"streetAddress" : "Las heras N°760 - b° 1ro de Marzo",
+	"addressLocality" : "San Salvador de Jujuy",
+	"addressRegion" : "Jujuy",
+	"addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/horizonte"
+}
+</script>
+						'
+					),
+
+					array(
+						'id' => 'horizonte-sucursal',
 						'img' => 'foto2',
 						'logo' => 'horizonte',
 						'numFotos' => 3,
-						'razonSocial' => 'Horizonte',
+						'razonSocial' => 'Horizonte Sucursal',
 						'tel' => '+54 0388 4280095',
 						'web' => 'https://www.facebook.com/Horizonte-SRL-1854606997890306/ <br> https://www.horizontesrl.com',
 						'correo' => 'ventas@horizontejujuy.arnetblz.com.ar<br>servicios@horizontejujuy.arnetblz.com.ar',
@@ -226,7 +260,41 @@ class sociosController extends Controller
 						'img' => 'foto1',
 						'logo' => 'horizonte-añosluz',
 						'numFotos' => 7,
-						'razonSocial' => 'Horizonte Años Luz',
+						'razonSocial' => 'Años Luz Horizonte',
+						'tel' => '+54 0388 4227777',
+						'web' => 'https://www.horizontesrl.com',
+						'correo' => 'comprasluz248@gmail.com',
+						'ciudad' => 'San Salvador de Jujuy',
+						'provincia' => 'Jujuy',
+						'calle' => 'Urdininea 172',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765.1299228410072!2d-65.30418014136664!3d-24.18604490693721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f417ac3dcff%3A0xdc4006ae68121f88!2sA+os+Luz+Horizonte+SRL!5e0!3m2!1ses!2sar!4v1470079671776',
+						'marcado' => '
+							<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Horizonte Años Luz",
+  "telephone" : "+54 0388 4227777",
+  "email" : "comprasluz248@gmail.com",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Urdininea 172",
+    "addressLocality" : "San Salvador de Jujuy",
+    "addressRegion" : "Jujuy",
+    "addressCountry" : "Argentina"
+  },
+  "url" : "http://www.prored.com.ar/socios/socio/horizonte-luz"
+}
+</script>
+						'
+					),
+
+					array(
+						'id' => 'horizonte-luz-sucursal',
+						'img' => 'foto1',
+						'logo' => 'horizonte-añosluz',
+						'numFotos' => 7,
+						'razonSocial' => 'Años Luz Horizonte Sucursal',
 						'tel' => '+54 0388 4227777',
 						'web' => 'https://www.horizontesrl.com',
 						'correo' => 'comprasluz248@gmail.com',
