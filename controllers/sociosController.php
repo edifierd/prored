@@ -239,7 +239,7 @@ class sociosController extends Controller
 {
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
-  "name" : "Horizonte",
+  "name" : "Horizonte Sucursal",
   "telephone" : "+54 0388 4280095",
   "email" : "ventas@horizontejujuy.arnetblz.com.ar",
   "address" : {
@@ -292,7 +292,7 @@ class sociosController extends Controller
 					array(
 						'id' => 'horizonte-luz-sucursal',
 						'img' => 'foto1',
-						'logo' => 'horizonte-añosluz',
+						'logo' => 'horizonte-anosluz',
 						'numFotos' => 7,
 						'razonSocial' => 'Años Luz Horizonte Sucursal',
 						'tel' => '+54 0388 4227777',
@@ -307,7 +307,7 @@ class sociosController extends Controller
 {
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
-  "name" : "Horizonte Años Luz",
+  "name" : "Horizonte Años Luz Sucursal",
   "telephone" : "+54 0388 4227777",
   "email" : "comprasluz248@gmail.com",
   "address" : {
