@@ -535,9 +535,9 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'zelectricidad-pehuajo',
-						'img' => 'foto10',
+						'img' => 'foto9',
 						'logo' => 'zelectricidad',
-						'numFotos' => 9,
+						'numFotos' => 12,
 						'razonSocial' => 'Z Electricidad Pehuajó',
 						'tel' => '+54 02396 476026',
 						'web' => 'www.zelectricidad.com.ar',
