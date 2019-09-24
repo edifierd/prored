@@ -13,9 +13,9 @@ class sociosController extends Controller
 
 			array(
 						'id' => 'los-toldos',
-						'img' => 'foto11',
+						'img' => 'foto3',
 						'logo' => 'los-toldos',
-						'numFotos' => 11,
+						'numFotos' => 10,
 						'razonSocial' => 'Electro Los Toldos',
 						'tel' => '+54 (02355) 15 - 417113 / 417135 / 418073',
 						'web' => '',
@@ -194,7 +194,7 @@ class sociosController extends Controller
 						'numFotos' => 9,
 						'razonSocial' => 'Horizonte',
 						'tel' => '+54 0388-4253402 / 4257110',
-						'web' => '',
+						'web' => 'https://www.facebook.com/Horizonte-SRL-1854606997890306/ <br> https://www.horizontesrl.com',
 						'correo' => 'ventas@horizontejujuy.arnetblz.com.ar<br>servicios@horizontejujuy.arnetblz.com.ar',
 						'ciudad' => 'San Salvador de Jujuy',
 						'provincia' => 'Jujuy',
@@ -233,7 +233,7 @@ class sociosController extends Controller
 						'ciudad' => 'San Salvador de Jujuy',
 						'provincia' => 'Jujuy',
 						'calle' => 'La Candelaria N°240 Barrio alto Comedero',
-						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1819.6324513790896!2d-65.28880715159346!3d-24.19750023085525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a15301644f0411d!2sHZ+Horizonte!5e0!3m2!1ses!2sar!4v1470079573307',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.2594216212233!2d-65.28007748500936!3d-24.232703784353866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0625915c3145%3A0x57349317272135a1!2sHorizonte%20Materiales%20Electricos!5e0!3m2!1ses!2sar!4v1569284339053!5m2!1ses!2sar',
 						'marcado' => '
 							<script type="application/ld+json">
 {
@@ -256,37 +256,37 @@ class sociosController extends Controller
 					),
 
 					array(
-						'id' => 'horizonte-luz',
-						'img' => 'foto1',
-						'logo' => 'horizonte-añosluz',
-						'numFotos' => 7,
-						'razonSocial' => 'Años Luz Horizonte',
-						'tel' => '+54 0388 4227777',
-						'web' => 'https://www.horizontesrl.com',
-						'correo' => 'comprasluz248@gmail.com',
-						'ciudad' => 'San Salvador de Jujuy',
-						'provincia' => 'Jujuy',
-						'calle' => 'Urdininea 172',
-						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765.1299228410072!2d-65.30418014136664!3d-24.18604490693721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f417ac3dcff%3A0xdc4006ae68121f88!2sA+os+Luz+Horizonte+SRL!5e0!3m2!1ses!2sar!4v1470079671776',
-						'marcado' => '
-							<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Horizonte Años Luz",
-  "telephone" : "+54 0388 4227777",
-  "email" : "comprasluz248@gmail.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Urdininea 172",
-    "addressLocality" : "San Salvador de Jujuy",
-    "addressRegion" : "Jujuy",
-    "addressCountry" : "Argentina"
-  },
-  "url" : "http://www.prored.com.ar/socios/socio/horizonte-luz"
-}
-</script>
-						'
+					    'id' => 'horizonte-luz',
+					    'img' => 'foto4',
+					    'logo' => 'horizonte-añosluz',
+					    'numFotos' => 11,
+					    'razonSocial' => 'Horizonte Años Luz',
+					    'tel' => '+54 0388-4242111 / 4227777',
+					    'web' => '',
+					    'correo' => 'horizontenecochea@horizontesrl.arnetblz.com.ar',
+					    'ciudad' => 'San Salvador de Jujuy',
+					    'provincia' => 'Jujuy',
+					    'calle' => 'Gral. Necochea 248',
+					    'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765.1299228410072!2d-65.30418014136664!3d-24.18604490693721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f417ac3dcff%3A0xdc4006ae68121f88!2sA+os+Luz+Horizonte+SRL!5e0!3m2!1ses!2sar!4v1470079671776',
+					    'marcado' => '
+					        <script type="application/ld+json">
+					{
+					"@context" : "http://schema.org",
+					"@type" : "LocalBusiness",
+					"name" : "Horizonte Años Luz",
+					"telephone" : "+54 0388-4242111 / 4227777",
+					"email" : "horizontenecochea@horizontesrl.arnetblz.com.ar",
+					"address" : {
+					"@type" : "PostalAddress",
+					"streetAddress" : "Gral. Necochea 248",
+					"addressLocality" : "San Salvador de Jujuy",
+					"addressRegion" : "Jujuy",
+					"addressCountry" : "Argentina"
+					},
+					"url" : "http://www.prored.com.ar/socios/socio/horizonte-luz"
+					}
+					</script>
+					    '
 					),
 
 					array(
@@ -301,7 +301,7 @@ class sociosController extends Controller
 						'ciudad' => 'San Salvador de Jujuy',
 						'provincia' => 'Jujuy',
 						'calle' => 'Urdininea 172',
-						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765.1299228410072!2d-65.30418014136664!3d-24.18604490693721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f417ac3dcff%3A0xdc4006ae68121f88!2sA+os+Luz+Horizonte+SRL!5e0!3m2!1ses!2sar!4v1470079671776',
+						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.4532341662866!2d-65.3032611850102!3d-24.19090108437411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f45adecfb53%3A0xd527ff373e92c99b!2sUrdininea%20172%2C%20San%20Salvador%20de%20Jujuy%2C%20Jujuy!5e0!3m2!1ses!2sar!4v1569284295426!5m2!1ses!2sar',
 						'marcado' => '
 							<script type="application/ld+json">
 {
