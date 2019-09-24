@@ -260,7 +260,7 @@ class sociosController extends Controller
 					    'img' => 'foto4',
 					    'logo' => 'horizonte-añosluz',
 					    'numFotos' => 11,
-					    'razonSocial' => 'Horizonte Años Luz',
+					    'razonSocial' => 'Años Luz Horizonte',
 					    'tel' => '+54 0388-4242111 / 4227777',
 					    'web' => '',
 					    'correo' => 'horizontenecochea@horizontesrl.arnetblz.com.ar',
@@ -273,7 +273,7 @@ class sociosController extends Controller
 					{
 					"@context" : "http://schema.org",
 					"@type" : "LocalBusiness",
-					"name" : "Horizonte Años Luz",
+					"name" : "Años Luz Horizonte",
 					"telephone" : "+54 0388-4242111 / 4227777",
 					"email" : "horizontenecochea@horizontesrl.arnetblz.com.ar",
 					"address" : {
