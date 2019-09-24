@@ -258,7 +258,7 @@ class sociosController extends Controller
 					array(
 					    'id' => 'horizonte-luz',
 					    'img' => 'foto4',
-					    'logo' => 'horizonte-añosluz',
+					    'logo' => 'horizonte-anosluz',
 					    'numFotos' => 11,
 					    'razonSocial' => 'Años Luz Horizonte',
 					    'tel' => '+54 0388-4242111 / 4227777',
