@@ -1,46 +1,53 @@
 <?php
 
 class institucionalController extends Controller
-{   
+{
 
 	private $galerias;
- 
-    public function __construct() 
+
+    public function __construct()
     {
         parent::__construct();
-		
+
 		$this->galerias = array (
 						array(
 							'id' => 1,
 							'nombre' => 'Grupo',
 							'descripcion' => '20/05/2015',
-							'fotos' => array( 42,34,35,36,37,38,39,40,41 )
+							'fotos' => array( 42,34,35,36,37,38,39,40,41,43,44,45,46,47,48,49,50 )
 						),
-						
+
 						array(
 							'id' => 2,
 							'nombre' => 'Fabrica Gen-Rod',
 							'descripcion' => '20/05/2015',
 							'fotos' => array( 10,11,14,22,25,26,29,30,31,32,33 )
 						),
-						
+
 						array(
 							'id' => 3,
 							'nombre' => 'Fabrica Homeplast',
 							'descripcion' => '20/05/2015',
 							'fotos' => array( 1,3,5,6,7,8,9 )
+						),
+
+						array(
+							'id' => 4,
+							'nombre' => 'Fabrica San Justo',
+							'descripcion' => '18/11/2014',
+							'fotos' => array( 51,52,53,54,55 )
 						)
 				   );
     }
-    
-	public function index(){	
+
+	public function index(){
 		$this->nosotros();
 	}
-	
+
     public function nosotros(){
-		
+
         $this->_view->assign('titulo', 'Sobre Nosotros - ProRed Argentina');
-		$this->_view->assign('description', 'ProRed Argentina es una organización conformada por distribuidores de materiales eléctricos estratégicamente ubicados en las ciudades más importantes de 
+		$this->_view->assign('description', 'ProRed Argentina es una organización conformada por distribuidores de materiales eléctricos estratégicamente ubicados en las ciudades más importantes de
 		Argentina. Nuestro objetivo es ofrecer y satisfacer soluciones tecnológicas tanto de equipos como de infraestructura como asesoría y consultoría para proveer un servicio completo a la altura y necesidades de nuestros clientes.');
 		$this->_view->assign('keywords', 'ProRed, organización, grupo, distribuidores materiales, electricos, ciudades, argentina, pro, red, mision, vision, valores, nombre, valores , trabajo, crecimiento, responsabilidad social, austeridad, objetivos, empresa');
 		$this->_view->assign('marcado', '
@@ -62,11 +69,11 @@ class institucionalController extends Controller
 									</script>
 							');
         $this->_view->renderizar('nosotros','institucional');
-		
+
 	}
-	
+
 	public function logo(){
-		
+
         $this->_view->assign('titulo', 'Logo y Desarrollo - ProRed Argentina');
 		$this->_view->assign('description', 'Somos ProRed Argentina, como primer elemento de identificación, base para una efectiva construcción de marca, el isologo de ProRed debía representar visualmente conceptos y valores de la red de distribución. Se apeló a una combinación de símbolo y logotipo de formas puras, reconocibles, diferenciadoras y fácilmente recordables, que aportaran flexibilidad a la hora de su aplicación en distintas situaciones de uso y en diversos soportes, sin perder su identidad primaria. Asimismo, se tuvo en cuenta su eventual articulación con la denominación escrita o logotipo de los distintos asociados. ');
 		$this->_view->assign('keywords', 'ProRed Argentina','ProRed, organización, grupo, distribuidores materiales, electricos, ciudades, argentina, pro, red, logo, desarrollo, logo y desarollo, fotos, empresa');
@@ -89,11 +96,11 @@ class institucionalController extends Controller
 </script>
 							');
         $this->_view->renderizar('logo','institucional');
-		
+
 	}
-	
+
 	public function fotos(){
-		
+
         $this->_view->assign('titulo', 'Galeria de fotos - ProRed Argentina');
 		$this->_view->assign('galerias', $this->galerias);
 		$this->_view->assign('description', 'ProRed Argentina Fotos es el lugar donde puede conocer con mas profundidad. Accediendo a todo el ontenido multimedia en fotos de nuestras galerias.');
@@ -112,13 +119,13 @@ class institucionalController extends Controller
 </script>
 							');
         $this->_view->renderizar('fotos','institucional');
-		
+
 	}
-	
+
 	public function galeria($id){
 		$id = $this->getParams();
 		$id = $id[0];
-		if ($this->esValido($id, $this->galerias)){  
+		if ($this->esValido($id, $this->galerias)){
 			$this->_view->setCss(array('blueimp-gallery.min'));
 			$this->_view->setCss(array('bootstrap-image-gallery.min'));
 			$this->_view->setJs(array('jquery.blueimp-gallery.min'));
@@ -131,10 +138,10 @@ class institucionalController extends Controller
 		} else {
 			$this->fotos();
 		}
-		
-		
+
+
 	}
-	
+
 	private function esValido($id, $socios){
 		foreach ($socios as $valor){
 			if($valor['id'] == $id)
@@ -142,7 +149,7 @@ class institucionalController extends Controller
 		}
 		return false;
 	}
-	
+
 	private function getElem($id, $socios){
 		foreach ($socios as $valor){
 			if($valor['id'] == $id)
@@ -151,7 +158,7 @@ class institucionalController extends Controller
 		return false;
 	}
 
-	
+
 }
 
 ?>
