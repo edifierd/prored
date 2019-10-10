@@ -17,7 +17,7 @@ class sociosController extends Controller
 						'logo' => 'los-toldos',
 						'numFotos' => 10,
 						'razonSocial' => 'Electro Los Toldos',
-						'tel' => '+54 (02355) 15 - 417113 / 417135 / 418073',
+						'tel' => '+54 (02355) 15 - 417113 / 417135 S',
 						'web' => '',
 						'correo' => 'electro.lostoldos@gmail.com',
 						'ciudad' => 'General Viamonte',
@@ -81,6 +81,40 @@ class sociosController extends Controller
 							'
 						),
 
+						array(
+									'id' => 'grelectro-sucursal',
+									'img' => 'foto3',
+									'logo' => 'grelectro',
+									'numFotos' => 5,
+									'razonSocial' => 'GR Electro Iluminación',
+									'tel' => '+54 (02323) 15 602169',
+									'web' => 'www.grelectro.com',
+									'correo' => 'iluminacion@grelectro.com',
+									'ciudad' => 'General Rodríguez',
+									'provincia' => 'Buenos Aires',
+									'calle' => 'Dr Luis Leloir 872',
+									'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9983.573589349653!2d-58.94357832123027!3d-34.60786688534228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe80bbb321225cab0!2sGR+Electro!5e0!3m2!1ses-419!2sar!4v1528760324283',
+									'marcado' => '
+										<script type="application/ld+json">
+			{
+			  "@context" : "http://schema.org",
+			  "@type" : "LocalBusiness",
+			  "name" : "GR Electro Iluminación",
+			  "image" : "http://www.prored.com.ar/views/socios/img/grelectro.jpg",
+			  "telephone" : "+54 (02323) 15 602169",
+			  "email" : "iluminacion@grelectro.com",
+			  "address" : {
+			    "@type" : "PostalAddress",
+			    "streetAddress" : "Dr Luis Leloir 872",
+			    "addressLocality" : "General Rodríguez",
+			    "addressRegion" : "Buenos Aires",
+			    "addressCountry" : "Argentina"
+			  },
+			  "url" : "http://www.prored.com.ar/socios/socio/grelectro"
+			}
+			</script>
+									'
+								),
 
 					array(
 						'id' => 'rigelec',
@@ -194,8 +228,8 @@ class sociosController extends Controller
 						'numFotos' => 9,
 						'razonSocial' => 'Horizonte',
 						'tel' => '+54 0388-4253402 / 4257110',
-						'web' => 'https://www.facebook.com/Horizonte-SRL-1854606997890306/ <br> https://www.horizontesrl.com',
-						'correo' => 'ventas@horizontejujuy.arnetblz.com.ar<br>servicios@horizontejujuy.arnetblz.com.ar',
+						'web' => 'https://www.horizontesrl.com',
+						'correo' => 'ventas@horizontesrl.com',
 						'ciudad' => 'San Salvador de Jujuy',
 						'provincia' => 'Jujuy',
 						'calle' => 'Las heras N°760 - b° 1ro de Marzo',
@@ -227,9 +261,9 @@ class sociosController extends Controller
 						'logo' => 'horizonte',
 						'numFotos' => 3,
 						'razonSocial' => 'Horizonte Sucursal',
-						'tel' => '+54 0388 4280095',
-						'web' => 'https://www.facebook.com/Horizonte-SRL-1854606997890306/ <br> https://www.horizontesrl.com',
-						'correo' => 'ventas@horizontejujuy.arnetblz.com.ar<br>servicios@horizontejujuy.arnetblz.com.ar',
+						'tel' => '+54 (0388) 4280095 ',
+						'web' => 'https://www.horizontesrl.com',
+						'correo' => 'ventas@horizontesrl.com',
 						'ciudad' => 'San Salvador de Jujuy',
 						'provincia' => 'Jujuy',
 						'calle' => 'La Candelaria N°240 Barrio alto Comedero',
@@ -240,8 +274,8 @@ class sociosController extends Controller
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
   "name" : "Horizonte Sucursal",
-  "telephone" : "+54 0388 4280095",
-  "email" : "ventas@horizontejujuy.arnetblz.com.ar",
+  "telephone" : "+54 (0388) 4280095",
+  "email" : "ventas@horizontesrl.com",
   "address" : {
     "@type" : "PostalAddress",
     "streetAddress" : "La Candelaria N°240 Barrio alto Comedero",
@@ -263,7 +297,7 @@ class sociosController extends Controller
 					    'razonSocial' => 'Años Luz Horizonte',
 					    'tel' => '+54 0388-4242111 / 4227777',
 					    'web' => '',
-					    'correo' => 'horizontenecochea@horizontesrl.arnetblz.com.ar',
+					    'correo' => 'horizontejujuy@arnetbiz.com.ar',
 					    'ciudad' => 'San Salvador de Jujuy',
 					    'provincia' => 'Jujuy',
 					    'calle' => 'Gral. Necochea 248',
@@ -275,7 +309,7 @@ class sociosController extends Controller
 					"@type" : "LocalBusiness",
 					"name" : "Años Luz Horizonte",
 					"telephone" : "+54 0388-4242111 / 4227777",
-					"email" : "horizontenecochea@horizontesrl.arnetblz.com.ar",
+					"email" : "horizontejujuy@arnetbiz.com.ar",
 					"address" : {
 					"@type" : "PostalAddress",
 					"streetAddress" : "Gral. Necochea 248",
@@ -291,7 +325,7 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'horizonte-luz-sucursal',
-						'img' => 'foto1',
+						'img' => 'foto5',
 						'logo' => 'horizonte-anosluz',
 						'numFotos' => 7,
 						'razonSocial' => 'Años Luz Horizonte Sucursal',
@@ -469,7 +503,7 @@ class sociosController extends Controller
 						'logo' => 'zelectricidad',
 						'numFotos' => 12,
 						'razonSocial' => 'Z Electricidad General Pico',
-						'tel' => '+54 02954 416500',
+						'tel' => '+54 (02302) 332305',
 						'web' => 'www.zelectricidad.com.ar',
 						'correo' => 'consultas@zelectricidad.com.ar',
 						'ciudad' => 'General Pico',
@@ -483,7 +517,7 @@ class sociosController extends Controller
   "@type" : "LocalBusiness",
   "name" : "Z Electricidad General Pico",
   "image" : "http://www.prored.com.ar/views/socios/img/zelectricidad.jpg",
-  "telephone" : "+54 02954 416500",
+  "telephone" : "+54 (02302) 332305",
   "email" : "consultas@zelectricidad.com.ar",
   "address" : {
     "@type" : "PostalAddress",
