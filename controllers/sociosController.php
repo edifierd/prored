@@ -17,7 +17,7 @@ class sociosController extends Controller
 						'logo' => 'los-toldos',
 						'numFotos' => 10,
 						'razonSocial' => 'Electro Los Toldos',
-						'tel' => '+54 (02355) 15 - 417113 / 417135 S',
+						'tel' => '+54 (02355) 15 - 417113 / 417135',
 						'web' => '',
 						'correo' => 'electro.lostoldos@gmail.com',
 						'ciudad' => 'General Viamonte',
@@ -84,7 +84,7 @@ class sociosController extends Controller
 						array(
 									'id' => 'grelectro-sucursal',
 									'img' => 'foto3',
-									'logo' => 'grelectro',
+									'logo' => 'grelectro-iluminacion',
 									'numFotos' => 5,
 									'razonSocial' => 'GR Electro Iluminación',
 									'tel' => '+54 (02323) 15 602169',
@@ -93,7 +93,7 @@ class sociosController extends Controller
 									'ciudad' => 'General Rodríguez',
 									'provincia' => 'Buenos Aires',
 									'calle' => 'Dr Luis Leloir 872',
-									'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9983.573589349653!2d-58.94357832123027!3d-34.60786688534228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe80bbb321225cab0!2sGR+Electro!5e0!3m2!1ses-419!2sar!4v1528760324283',
+									'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.236493405283!2d-58.943090384770414!3d-34.598180880460944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc8fc036639713%3A0x2c229f773e6fa1c7!2sDr.%20Luis%20Leloir%20872%2C%20B1748%20Gral.%20Rodr%C3%ADguez%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1572562877363!5m2!1ses!2sar',
 									'marcado' => '
 										<script type="application/ld+json">
 			{
@@ -112,8 +112,7 @@ class sociosController extends Controller
 			  },
 			  "url" : "http://www.prored.com.ar/socios/socio/grelectro"
 			}
-			</script>
-									'
+			</script>'
 								),
 
 					array(
@@ -217,9 +216,40 @@ class sociosController extends Controller
   },
   "url" : "http://www.prored.com.ar/socios/socio/homero"
 }
-</script>
-						'
-					),
+</script>'),
+
+	array(
+		'id' => 'homero-sucursal',
+		'img' => 'foto5',
+		'logo' => 'homero-sucursal',
+		'numFotos' => 5,
+		'razonSocial' => 'Homero Sucursal',
+		'tel' => '+54 0297 15 515-4118',
+		'web' => 'homerodelsur.com.ar',
+		'correo' => 'gustavo@homerosrl.com.ar',
+		'ciudad' => 'San Martín',
+		'provincia' => 'Santa Cruz',
+		'calle' => '731 Puerto San Julián',
+		'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5202.4483214147795!2d-67.7257128!3d-49.3100384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdc4034af4ffe747%3A0x5ac4b2c19dbfe54e!2sHomero%20Del%20Sur!5e0!3m2!1ses!2sar!4v1572563957385!5m2!1ses!2sar',
+		'marcado' => '
+			<script type="application/ld+json">
+	{
+	"@context" : "http://schema.org",
+	"@type" : "LocalBusiness",
+	"name" : "Homero Sucursal",
+	"image" : "http://www.prored.com.ar/views/socios/img/homero.jpg",
+	"telephone" : "+54 0297 15 515-4118",
+	"email" : "gustavo@homerosrl.com.ar",
+	"address" : {
+	"@type" : "PostalAddress",
+	"streetAddress" : "731 Puerto San Julián",
+	"addressLocality" : "San Martín",
+	"addressRegion" : "Santa Cruz",
+	"addressCountry" : "Argentina"
+	},
+	"url" : "http://www.prored.com.ar/socios/socio/homero"
+	}
+	</script>'),
 
 					array(
 						'id' => 'horizonte',
@@ -241,7 +271,7 @@ class sociosController extends Controller
   "@type" : "LocalBusiness",
   "name" : "Horizonte",
   "telephone" : "+54 0388-4253402 / 4257110",
-  "email" : "ventas@horizontejujuy.arnetblz.com.ar",
+  "email" : "ventas@horizontesrl.com",
   "address" : {
 	"@type" : "PostalAddress",
 	"streetAddress" : "Las heras N°760 - b° 1ro de Marzo",
