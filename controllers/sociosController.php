@@ -85,7 +85,7 @@ class sociosController extends Controller
 									'id' => 'grelectro-sucursal',
 									'img' => 'foto3',
 									'logo' => 'grelectro-iluminacion',
-									'numFotos' => 5,
+									'numFotos' => 10,
 									'razonSocial' => 'GR Electro Iluminación',
 									'tel' => '+54 (02323) 15 602169',
 									'web' => 'www.grelectro.com',
@@ -159,9 +159,9 @@ class sociosController extends Controller
 						'tel' => '+54 2314-427278 ',
 						'web' => '',
 						'correo' => 'electricidadlavalle@hotmail.com electricidadlavalle@yahoo.com.ar',
-						'ciudad' => 'Bolivar',
+						'ciudad' => 'San Carlos Bolivar',
 						'provincia' => 'Buenos Aires',
-						'calle' => 'Av. Juan Manuel de Rosas y Palavecino',
+						'calle' => 'Av. Juan Manuel de Rosas 750',
 						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.418222520237!2d-61.13160538472603!3d-36.22933328007022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDEzJzQ1LjYiUyA2McKwMDcnNDUuOSJX!5e0!3m2!1ses!2sar!4v1569258724964!5m2!1ses!2sar',
 						'marcado' => '
 							<script type="application/ld+json">
@@ -227,9 +227,9 @@ class sociosController extends Controller
 		'tel' => '+54 0297 15 515-4118',
 		'web' => 'homerodelsur.com.ar',
 		'correo' => 'gustavo@homerosrl.com.ar',
-		'ciudad' => 'San Martín',
+		'ciudad' => 'Puerto San Julian',
 		'provincia' => 'Santa Cruz',
-		'calle' => '731 Puerto San Julián',
+		'calle' => 'San Martin 731',
 		'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5202.4483214147795!2d-67.7257128!3d-49.3100384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdc4034af4ffe747%3A0x5ac4b2c19dbfe54e!2sHomero%20Del%20Sur!5e0!3m2!1ses!2sar!4v1572563957385!5m2!1ses!2sar',
 		'marcado' => '
 			<script type="application/ld+json">
@@ -242,8 +242,8 @@ class sociosController extends Controller
 	"email" : "gustavo@homerosrl.com.ar",
 	"address" : {
 	"@type" : "PostalAddress",
-	"streetAddress" : "731 Puerto San Julián",
-	"addressLocality" : "San Martín",
+	"streetAddress" : "San Martin 731",
+	"addressLocality" : "Santa Cruz",
 	"addressRegion" : "Santa Cruz",
 	"addressCountry" : "Argentina"
 	},
@@ -324,9 +324,9 @@ class sociosController extends Controller
 					    'img' => 'foto4',
 					    'logo' => 'horizonte-anosluz',
 					    'numFotos' => 11,
-					    'razonSocial' => 'Años Luz Horizonte',
+					    'razonSocial' => 'Años Luz de Horizonte',
 					    'tel' => '+54 0388-4242111 / 4227777',
-					    'web' => '',
+					    'web' => 'https://www.horizontesrl.com',
 					    'correo' => 'horizontejujuy@arnetbiz.com.ar',
 					    'ciudad' => 'San Salvador de Jujuy',
 					    'provincia' => 'Jujuy',
@@ -337,7 +337,7 @@ class sociosController extends Controller
 					{
 					"@context" : "http://schema.org",
 					"@type" : "LocalBusiness",
-					"name" : "Años Luz Horizonte",
+					"name" : "Años Luz de Horizonte",
 					"telephone" : "+54 0388-4242111 / 4227777",
 					"email" : "horizontejujuy@arnetbiz.com.ar",
 					"address" : {
@@ -355,10 +355,10 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'horizonte-luz-sucursal',
-						'img' => 'foto5',
+						'img' => 'foto4',
 						'logo' => 'horizonte-anosluz',
-						'numFotos' => 7,
-						'razonSocial' => 'Años Luz Horizonte Sucursal',
+						'numFotos' => 6,
+						'razonSocial' => 'Años Luz de Horizonte Sucursal',
 						'tel' => '+54 0388 4227777',
 						'web' => 'https://www.horizontesrl.com',
 						'correo' => 'comprasluz248@gmail.com',
@@ -371,7 +371,7 @@ class sociosController extends Controller
 {
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
-  "name" : "Horizonte Años Luz Sucursal",
+  "name" : "Años Luz de Horizonte",
   "telephone" : "+54 0388 4227777",
   "email" : "comprasluz248@gmail.com",
   "address" : {
@@ -599,9 +599,9 @@ class sociosController extends Controller
 
 					array(
 						'id' => 'zelectricidad-pehuajo',
-						'img' => 'foto9',
+						'img' => 'foto8',
 						'logo' => 'zelectricidad',
-						'numFotos' => 12,
+						'numFotos' => 11,
 						'razonSocial' => 'Z Electricidad Pehuajó',
 						'tel' => '+54 02396 476026',
 						'web' => 'www.zelectricidad.com.ar',

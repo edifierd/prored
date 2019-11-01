@@ -52,7 +52,7 @@
     </div>
     
     <div class="hidden-xs col-sm-4 col-md-3" >
-    	<a href="http://www.bna.com.ar/" target="_blank" onmouseover="cambiarImagen(1,'{$_layoutParams.img}nacionh.jpg')" 
+    	<a href="https://www.bna.com.ar/" target="_blank" onmouseover="cambiarImagen(1,'{$_layoutParams.img}nacionh.jpg')" 
         onmouseout="cambiarImagen(1,'{$_layoutParams.img}nacion.jpg')" title="Banco Nación">
     		<img src="{$_layoutParams.img}nacion.jpg" id="1" class="img-responsive btnExtraImg" />
         </a>
