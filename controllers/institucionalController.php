@@ -14,7 +14,7 @@ class institucionalController extends Controller
 							'id' => 1,
 							'nombre' => 'Grupo',
 							'descripcion' => '20/05/2015',
-							'fotos' => array( 42,34,35,36,37,38,39,40,41,43,44,45,46,47,48,49,50 )
+							'fotos' => array( 42,34,35,36,37,38,39,40,41,43,44,45,46,47,48,49,50,56 )
 						),
 
 						array(
