@@ -77,13 +77,6 @@ class proveedoresController extends Controller
 			),
 
 			array(
-				'nombre' => 'Homeplast',
-				'logo' => 'homeplast',
-				'web' => 'www.homeplast.com',
-				'url' => '#'
-			),
-
-			array(
 				'nombre' => 'IMSA',
 				'logo' => 'imsa',
 				'web' => 'imsa.com.ar',
@@ -179,6 +172,20 @@ class proveedoresController extends Controller
 				'logo' => 'nuban',
 				'web' => 'www.nuban.com.ar',
 				'url' => 'http://nuban.com.ar'
+			),
+
+			array(
+				'nombre' => 'Samet',
+				'logo' => 'samet',
+				'web' => 'www.samet.com.ar',
+				'url' => 'http://www.samet.com.ar'
+			),
+
+			array(
+				'nombre' => 'Kalop',
+				'logo' => 'kalop',
+				'web' => 'www.kalop.com.ar',
+				'url' => 'http://www.kalop.com.ar'
 			)
 
 		);
@@ -198,13 +205,6 @@ class proveedoresController extends Controller
 				'logo' => 'microcontrol',
 				'web' => 'www.microcontrol.com.ar',
 				'url' => 'http://www.microcontrol.com.ar'
-			),
-
-			array(
-				'nombre' => 'Samet',
-				'logo' => 'samet',
-				'web' => 'www.samet.com.ar',
-				'url' => 'http://www.samet.com.ar'
 			)
 
 		);

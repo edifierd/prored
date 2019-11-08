@@ -1,10 +1,18 @@
 
 <!--<link href="../layout/prored/css/bootstrap.min.css" rel="stylesheet" type="text/css">-->
 
-<div class="row">
-	<div class=" col-xs-12 col-sm-12 col-md-12" style=" text-align:center; height: 750px; margin-top: 100px;">
-    	<h1>Próximamente acceda a todas las novedades de ProRed. </h1><br>
-        <img src="{$_layoutParams.img}pagina-en-construccion.png" class="img-responsive" style="width: 500px; margin-right:auto; margin-left:auto;" >
-        <h2>En Construcción</h2>
-	</div>
+<img src="{$_layoutParams.img}placa50anios.jpg" class="img-responsive img-novedad" alt="50 años ProRed Argentina">
+
+<div class="panel panel-default" style="margin-top: 5px;">
+  <div class="panel-body" style="color:black; text-align:center;">
+	<h4>Hoy conforman ProRed 9 socios, con 19 Sucursales y seguimos creciendo y sumando.</h4>
+  </div>
 </div>
+
+
+<style>
+	.img-novedad{
+		width: 100%;
+		margin-top: -15px;
+	}
+</style>

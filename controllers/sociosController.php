@@ -10,6 +10,73 @@ class sociosController extends Controller
         parent::__construct();
 
 		$this->socios = array (
+			array(
+				'id' => 'electro-iluminacion',
+				'img' => 'foto2',
+				'logo' => 'electro-iluminacion',
+				'numFotos' => 6,
+				'razonSocial' => 'Electro Iluminación GR',
+				'tel' => '+54 (02323) 435556',
+				'web' => '',
+				'correo' => 'ventasiluminacion@grelectro.com',
+				'ciudad' => 'Lujan',
+				'provincia' => 'Buenos Aires',
+				'calle' => '25 de mayo 547',
+				'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6017469547846!2d-59.11583868477143!3d-34.5636375804699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc7df2ef245fc7%3A0xa17ffed084cfc484!2s25%20de%20Mayo%20547%2C%20B6700%20ALK%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1573219690048!5m2!1ses!2sar',
+				'marcado' => '
+					<script type="application/ld+json">
+	{
+	"@context" : "http://schema.org",
+	"@type" : "LocalBusiness",
+	"name" : "Electro Iluminación GR",
+	"image" : "http://www.prored.com.ar/views/socios/img/electro-iluminacion.jpg",
+	"telephone" : "+54 (02323) 435556",
+	"email" : "ventasiluminacion@grelectro.com",
+	"address" : {
+	"@type" : "PostalAddress",
+	"streetAddress" : "25 de mayo 547",
+	"addressLocality" : "Lujan",
+	"addressRegion" : "Buenos Aires",
+	"addressCountry" : "Argentina"
+	},
+	"url" : "http://www.prored.com.ar/socios/socio/electro-iluminacion"
+	}
+	</script>'
+			),
+
+			array(
+				'id' => 'casa-sergio',
+				'img' => 'foto12',
+				'logo' => 'casa-sergio',
+				'numFotos' => 14,
+				'razonSocial' => 'Electricidad Casa Sergio',
+				'tel' => '+54 (011) 4744-7149',
+				'web' => 'https://web.facebook.com/casasergioelectricidad',
+				'correo' => 'electricidadcasasergio@gmail.com',
+				'ciudad' => 'San Fernando',
+				'provincia' => 'Buenos Aires',
+				'calle' => 'Av. Nicolás Avellaneda 2631',
+				'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14455.561581458023!2d-58.558763827175795!3d-34.449346411963454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca55bef82b8bf%3A0xed91e19d6cc6714d!2sElectricidad%20Casa%20Sergio%20-%20Materiales%20El%C3%A9ctricos!5e0!3m2!1ses!2sar!4v1572882090046!5m2!1ses!2sar',
+				'marcado' => '
+					<script type="application/ld+json">
+	{
+	"@context" : "http://schema.org",
+	"@type" : "LocalBusiness",
+	"name" : "Electricidad Casa Sergio - Materiales Eléctricos",
+	"image" : "http://www.prored.com.ar/views/socios/img/casa-sergio.jpg",
+	"telephone" : "+54 (011) 4744-7149",
+	"email" : "electricidadcasasergio@gmail.com",
+	"address" : {
+	"@type" : "PostalAddress",
+	"streetAddress" : "Av. Nicolás Avellaneda 2631",
+	"addressLocality" : "San Fernando",
+	"addressRegion" : "Buenos Aires",
+	"addressCountry" : "Argentina"
+	},
+	"url" : "http://www.prored.com.ar/socios/socio/casa-sergio"
+	}
+	</script>'
+			),
 
 			array(
 						'id' => 'los-toldos',
@@ -50,7 +117,7 @@ class sociosController extends Controller
 							'id' => 'grelectro',
 							'img' => 'foto1',
 							'logo' => 'grelectro',
-							'numFotos' => 5,
+							'numFotos' => 7,
 							'razonSocial' => 'GR Electro',
 							'tel' => '+54 (0237) 485 3824 - (02323) 43 5556',
 							'web' => 'www.grelectro.com',
@@ -110,7 +177,7 @@ class sociosController extends Controller
 			    "addressRegion" : "Buenos Aires",
 			    "addressCountry" : "Argentina"
 			  },
-			  "url" : "http://www.prored.com.ar/socios/socio/grelectro"
+			  "url" : "http://www.prored.com.ar/socios/socio/grelectro-sucursal"
 			}
 			</script>'
 								),
@@ -247,7 +314,7 @@ class sociosController extends Controller
 	"addressRegion" : "Santa Cruz",
 	"addressCountry" : "Argentina"
 	},
-	"url" : "http://www.prored.com.ar/socios/socio/homero"
+	"url" : "http://www.prored.com.ar/socios/socio/homero-sucursal"
 	}
 	</script>'),
 
@@ -313,7 +380,7 @@ class sociosController extends Controller
     "addressRegion" : "Jujuy",
     "addressCountry" : "Argentina"
   },
-  "url" : "http://www.prored.com.ar/socios/socio/horizonte"
+  "url" : "http://www.prored.com.ar/socios/socio/horizonte-sucursal"
 }
 </script>
 						'
@@ -324,10 +391,10 @@ class sociosController extends Controller
 					    'img' => 'foto4',
 					    'logo' => 'horizonte-anosluz',
 					    'numFotos' => 11,
-					    'razonSocial' => 'Años Luz de Horizonte',
+					    'razonSocial' => 'Años Luz Horizonte',
 					    'tel' => '+54 0388-4242111 / 4227777',
 					    'web' => 'https://www.horizontesrl.com',
-					    'correo' => 'horizontejujuy@arnetbiz.com.ar',
+					    'correo' => 'comprashz@horizontesrl.com',
 					    'ciudad' => 'San Salvador de Jujuy',
 					    'provincia' => 'Jujuy',
 					    'calle' => 'Gral. Necochea 248',
@@ -337,9 +404,9 @@ class sociosController extends Controller
 					{
 					"@context" : "http://schema.org",
 					"@type" : "LocalBusiness",
-					"name" : "Años Luz de Horizonte",
+					"name" : "Años Luz Horizonte",
 					"telephone" : "+54 0388-4242111 / 4227777",
-					"email" : "horizontejujuy@arnetbiz.com.ar",
+					"email" : "comprashz@horizontesrl.com",
 					"address" : {
 					"@type" : "PostalAddress",
 					"streetAddress" : "Gral. Necochea 248",
@@ -358,7 +425,7 @@ class sociosController extends Controller
 						'img' => 'foto4',
 						'logo' => 'horizonte-anosluz',
 						'numFotos' => 6,
-						'razonSocial' => 'Años Luz de Horizonte Sucursal',
+						'razonSocial' => 'Años Luz Horizonte Sucursal',
 						'tel' => '+54 0388 4227777',
 						'web' => 'https://www.horizontesrl.com',
 						'correo' => 'comprasluz248@gmail.com',
@@ -371,7 +438,7 @@ class sociosController extends Controller
 {
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
-  "name" : "Años Luz de Horizonte",
+  "name" : "Años Luz Horizonte",
   "telephone" : "+54 0388 4227777",
   "email" : "comprasluz248@gmail.com",
   "address" : {
@@ -381,7 +448,7 @@ class sociosController extends Controller
     "addressRegion" : "Jujuy",
     "addressCountry" : "Argentina"
   },
-  "url" : "http://www.prored.com.ar/socios/socio/horizonte-luz"
+  "url" : "http://www.prored.com.ar/socios/socio/horizonte-luz-sucursal"
 }
 </script>
 						'
@@ -568,12 +635,12 @@ class sociosController extends Controller
 						'logo' => 'zelectricidad',
 						'numFotos' => 4,
 						'razonSocial' => 'Z Electricidad Trenque Lauquen',
-						'tel' => '+54 02391 43-0834',
+						'tel' => '+54 02392-499222',
 						'web' => 'www.zelectricidad.com.ar',
-						'correo' => 'consultastl@zelectricidad.com.ar',
+						'correo' => 'ventastl@zelectricidad.com.ar',
 						'ciudad' => 'Trenque Lauquen',
 						'provincia' => 'Buenos Aires',
-						'calle' => 'Villegas 34',
+						'calle' => 'Mitre 35',
 						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4566.832965781473!2d-62.73652067402277!3d-35.965592693891516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c17c081aeece31%3A0xc7b04ad5652ab996!2sZ+Electricidad!5e0!3m2!1ses!2sar!4v1470083428837',
 						'marcado' => '
 							<script type="application/ld+json">
@@ -582,11 +649,11 @@ class sociosController extends Controller
   "@type" : "LocalBusiness",
   "name" : "Z Electricidad Trenque Lauquen",
   "image" : "http://www.prored.com.ar/views/socios/img/zelectricidad.jpg",
-  "telephone" : "+54 02391 43-0834",
-  "email" : "consultastl@zelectricidad.com.ar",
+  "telephone" : "+54 02392-499222",
+  "email" : "ventastl@zelectricidad.com.ar",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "Villegas 34",
+    "streetAddress" : "Mitre 35",
     "addressLocality" : "Trenque Lauquen",
     "addressRegion" : "Buenos Aires",
     "addressCountry" : "Argentina"
@@ -605,10 +672,10 @@ class sociosController extends Controller
 						'razonSocial' => 'Z Electricidad Pehuajó',
 						'tel' => '+54 02396 476026',
 						'web' => 'www.zelectricidad.com.ar',
-						'correo' => 'consultasph@zelectricidad.com.ar',
+						'correo' => 'ricardo@zelectricidad.com.ar',
 						'ciudad' => 'Pehuajó',
 						'provincia' => 'Buenos Aires',
-						'calle' => 'Zanni 407 Esquina del Valle',
+						'calle' => 'Jose Hernandez 420',
 						'gmaps' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.9964184283613!2d-61.89538054470078!3d-35.813629901310044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c0f82c586ba0f3%3A0x4844bfb1b35ccf03!2sPehuaj%C3%B3%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1470106068638',
 						'marcado' => '
 							<script type="application/ld+json">
@@ -618,10 +685,10 @@ class sociosController extends Controller
   "name" : "Z Electricidad Pehuajó",
   "image" : "http://www.prored.com.ar/views/socios/img/zelectricidad.jpg",
   "telephone" : "+54 02954 416500",
-  "email" : "consultasph@zelectricidad.com.ar",
+  "email" : "ricardo@zelectricidad.com.ar",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "Zanni 407 Esquina del Valle",
+    "streetAddress" : "Jose Hernandez 420",
     "addressLocality" : "Pehuajó",
     "addressRegion" : "Buenos Aires",
     "addressCountry" : "Argentina"
