@@ -3,9 +3,15 @@
 
 <img src="{$_layoutParams.img}placa50anios.jpg" class="img-responsive img-novedad" alt="50 años ProRed Argentina">
 
-<div class="panel panel-default" style="margin-top: 5px;">
+<div class="panel panel-default" style="margin-top: 5px; margin-bottom: 5px;">
   <div class="panel-body" style="color:black; text-align:center; padding: 0;">
 	<img src="{$_layoutParams.img}placa50anios_subtitulo.png" class="img-responsive" alt="50 años ProRed Argentina" >
+  </div>
+</div>
+
+<div class="panel panel-default" style="border:none;">
+  <div class="panel-body" style="color:black; text-align:center; padding: 0;">
+	<img src="{$_layoutParams.img}placa_sucursales.png" class="img-responsive" alt="Mapa de sucursales ProRed Argentina" >
   </div>
 </div>
 
