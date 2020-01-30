@@ -38,7 +38,7 @@ class contactoController extends Controller
             $this->_view->assign('_error', 'Debe introducir su Apellido.');
             $this->redireccionarContacto($_POST);
             exit;
-        } else if(ereg('[^A-Za-zñÑ ]', $this->getPostParam('apellido'))) {
+        } else if(preg_match('[^A-Za-zñÑ ]', $this->getPostParam('apellido'))) {
 			$this->_view->assign('_error', 'El apellido introducido no es un Apellido valido.');
             $this->redireccionarContacto($_POST);
             exit;
@@ -48,7 +48,7 @@ class contactoController extends Controller
             $this->_view->assign('_error', 'Debe introducir su Nombre.');
             $this->redireccionarContacto($_POST);
             exit;
-        } else if(ereg('[^A-Za-zñÑ ]', $this->getPostParam('nombre'))) {
+        } else if(preg_match('[^A-Za-zñÑ ]', $this->getPostParam('nombre'))) {
 			$this->_view->assign('_error', 'El nombre introducido no es un nombre valido.');
             $this->redireccionarContacto($_POST);
             exit;
@@ -64,7 +64,7 @@ class contactoController extends Controller
             $this->_view->assign('_error', 'Debe introducir su Localidad');
             $this->redireccionarContacto($_POST);
             exit;
-        } else if(ereg('[^A-Za-zñÑ ]', $this->getPostParam('localidad'))) {
+        } else if(preg_match('[^A-Za-zñÑ ]', $this->getPostParam('localidad'))) {
 			$this->_view->assign('_error', 'La localidad introducida no es una localidad valida.');
             $this->redireccionarContacto($_POST);
             exit;
@@ -74,7 +74,7 @@ class contactoController extends Controller
             $this->_view->assign('_error', 'Debe introducir su Telefono. Ingrese solo números.');
             $this->redireccionarContacto($_POST);
             exit;
-        } else if(ereg('[^0-9 ]', $this->getPostParam('telefono'))) {
+        } else if(preg_match('[^0-9 ]', $this->getPostParam('telefono'))) {
 			$this->_view->assign('_error', 'El teléfono introducido no es un teléfono valido. Ingrese solo números.');
             $this->redireccionarContacto($_POST);
             exit;
@@ -87,55 +87,84 @@ class contactoController extends Controller
         }
 		
 		
-		$this->getLibrary('class.phpmailer');
+		$this->getLibrary('PHPMailer');
+		$this->getLibrary('SMTP');
+		$this->getLibrary('Exception');
 		
-        $mail = new PHPMailer();
-		$mail->From = $this->getPostParam('correo');
-        $mail->FromName = $this->getPostParam('apellido') . ' ' . $this->getPostParam('nombre');
-        $mail->Subject = 'Mensaje de Prored - ' . $this->getPostParam('tipoContacto');
-        $mail->Body = '<p>
-						<h3> ' . $this->getPostParam('apellido') . ' ' . $this->getPostParam('nombre') . ' envio el siguiente mensaje en: ' . $this->getPostParam('tipoContacto') . '</h3><br> 
-							 ' . $this->getTexto('consulta') . '<br><br>
-							 <u>Sus datos para contactarlo son:</u> <br>
-							 <ul>	
-								<li>Nombre: ' . $this->getPostParam('nombre') . '</li>
-								<li>Apellido: ' . $this->getPostParam('apellido') . '</li>
-								<li>Razon Social: ' . $this->getPostParam('razonSocial') . '</li>
-								<li>Localidad: ' . $this->getPostParam('localidad') . '</li>
-								<li>Telefono: ' . $this->getPostParam('telefono') . '</li>
-								<li>Correo: ' . $this->getPostParam('correo') . '</li>
-							 </ul>
-					   </p>' ;
-        $mail->AltBody = 'Su servidor de correo no soporta html';
-        $mail->AddAddress("contacto@prored.com.ar");
-        
-		if($mail->send()) {
-			$this->_view->assign('_mensaje', 'Su mensaje ha sido enviado correctamente. Pronto sera contactado.');
-		} else {
-			$this->_view->assign('_error', 'Hubo un error al enviar el mensaje. Por favor intentelo nuevamente <br><br>' . $mail->ErrorInfo );
-		}
+		$mail = new PHPMailer(true);
+		try{
+			//$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+			$mail->isSMTP();                                            // Send using SMTP
+			$mail->Host       = 'c1720206.ferozo.com';                  // Set the SMTP server to send through
+			$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+			$mail->Username   = 'no-reply@prored.com.ar';               // SMTP username
+			$mail->Password   = 'Redpro2020';                           // SMTP password
+			$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
+			$mail->Port       = 465; 
+
+			$mail->From = 'no-reply@prored.com.ar';
+			$mail->FromName = 'No reply - Contacto ProRed' . $this->getPostParam('tipoContacto');
+			$mail->Subject = 'Mensaje de ' . $this->getPostParam('apellido') . ' ' . $this->getPostParam('nombre') ;
+			$mail->Body = '<p>
+							<h3> ' . $this->getPostParam('apellido') . ' ' . $this->getPostParam('nombre') . ' envio el siguiente mensaje en: ' . $this->getPostParam('tipoContacto') . '</h3><br> 
+								 ' . $this->getTexto('consulta') . '<br><br>
+								 <u>Sus datos para contactarlo son:</u> <br>
+								 <ul>	
+									<li>Nombre: ' . $this->getPostParam('nombre') . '</li>
+									<li>Apellido: ' . $this->getPostParam('apellido') . '</li>
+									<li>Razon Social: ' . $this->getPostParam('razonSocial') . '</li>
+									<li>Localidad: ' . $this->getPostParam('localidad') . '</li>
+									<li>Telefono: ' . $this->getPostParam('telefono') . '</li>
+									<li>Correo: ' . $this->getPostParam('correo') . '</li>
+								 </ul>
+						   </p>' ;
+			$mail->AltBody = 'Su servidor de correo no soporta html';
+
+			$mail->AddAddress("contacto@prored.com.ar");
+			$mail->AddBCC("fedproducciones@gmail.com");
+			$mail->AddBCC("albbil3@hotmail.com");
+			
+			if($mail->send()) {
+				$this->_view->assign('_mensaje', 'Su mensaje ha sido enviado correctamente. Pronto sera contactado.');
+			} else {
+				$this->_view->assign('_error', 'Hubo un error al enviar el mensaje. Por favor intentelo nuevamente <br><br>' . $mail->ErrorInfo );
+			}
+		} catch (Exception $e) {
+			echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+		}		
 		
-		$mail->AddAddress("fedproducciones@gmail.com");
-		$mail->send();
-		
-		$mail = new PHPMailer();
-		$mail->From = 'contacto@prored.com.ar';
-        $mail->FromName = 'Contacto ProRed';
-        $mail->Subject = 'Aviso de entrega de mensaje';
-        $mail->Body = '<p style="text-align:center;">
-						<h2>Gracias por enviarnos tu consulta.</h2> <br>
-						
-						Lo antes posible sera contactado por nosotros desde ProRed para enviarle la respuesta a su mensaje.<br><br>
-						
-						www.prored.com.ar<br><br>
-						
-						<i>Por favor no responda este correo</i>
-					  </p>' ;
+		$mail = new PHPMailer(true);
+		try {
+			//$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+			$mail->isSMTP();                                            // Send using SMTP
+			$mail->Host       = 'c1720206.ferozo.com';                  // Set the SMTP server to send through
+			$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+			$mail->Username   = 'contacto@prored.com.ar';               // SMTP username
+			$mail->Password   = 'Redpro2020';                           // SMTP password
+			$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
+			$mail->Port       = 465; 
+
+			$mail->From = 'contacto@prored.com.ar';
+			$mail->FromName = 'Contacto ProRed Argentina';
+			$mail->Subject = 'Aviso de entrega de mensaje de contacto';
+			$mail->Body = '<p style="text-align:center;">
+							<h2>Gracias por enviarnos tu consulta.</h2> <br>
+							
+							Lo antes posible sera contactado por nosotros desde ProRed para enviarle la respuesta a su mensaje.<br><br>
+							
+							www.prored.com.ar<br><br>
+							
+							<i>Por favor no responda este correo</i>
+						  </p>' ;
 
 
-        $mail->AltBody = 'Su servidor de correo no soporta html';
-        $mail->AddAddress($this->getPostParam('correo'));
-		$mail->send();
+			$mail->AltBody = 'Su servidor de correo no soporta html';
+			$mail->AddAddress($this->getPostParam('correo'));
+			$mail->send();
+
+		} catch (Exception $e) {
+			echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+		}		
 		
 		$this->redireccionarContacto();
 	}
