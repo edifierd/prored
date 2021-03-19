@@ -11,6 +11,39 @@ class sociosController extends Controller
 
 		$this->socios = array (
 			array(
+				'id' => 'grelectro-canuelas',
+				'img' => 'foto7',
+				'logo' => 'grelectro',
+				'numFotos' => 7,
+				'razonSocial' => 'GR Electro Cañuelas',
+				'tel' => '+54 (011) 15 3351-2177',
+				'web' => 'www.grelectro.com',
+				'correo' => 'comprascanuelas@grelectro.com',
+				'ciudad' => 'Cañuelas',
+				'provincia' => 'Buenos Aires',
+				'calle' => 'Antoño Díaz 750',
+				'gmaps' =>	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.4083017634034!2d-58.77043808475835!3d-35.04652968034711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd1fce4b5eba5b%3A0x6537c05e76ee04ab!2sGR%20Electro%20Ca%C3%B1uelas!5e0!3m2!1ses!2sar!4v1616158447148!5m2!1ses!2sar',
+				'marcado' => '
+					<script type="application/ld+json">
+						{
+						"@context" : "http://schema.org",
+						"@type" : "LocalBusiness",
+						"name" : "GR Electro Cañuelas",
+						"image" : "http://www.prored.com.ar/views/socios/img/grelectro.jpg",
+						"telephone" : "+54 (011) 15 3351-2177",
+						"email" : "comprascanuelas@grelectro.com",
+						"address" : {
+						"@type" : "PostalAddress",
+						"streetAddress" : "Antoño Díaz 750",
+						"addressLocality" : "Cañuelas",
+						"addressRegion" : "Buenos Aires",
+						"addressCountry" : "Argentina"
+						},
+						"url" : "http://www.prored.com.ar/socios/socio/grelectro-canuelas"
+						}
+						</script>'
+			),
+			array(
 				'id' => 'electro-iluminacion',
 				'img' => 'foto2',
 				'logo' => 'electro-iluminacion',
