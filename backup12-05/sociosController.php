@@ -699,7 +699,7 @@ class sociosController extends Controller
 						'id' => 'zelectricidad-trenquelauquen',
 						'img' => 'foto4',
 						'logo' => 'zelectricidad',
-						'numFotos' => 6,
+						'numFotos' => 4,
 						'razonSocial' => 'Z Electricidad Trenque Lauquen',
 						'tel' => '+54 02392-499222',
 						'web' => 'www.zelectricidad.com.ar',
