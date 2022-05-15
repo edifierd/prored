@@ -16,7 +16,7 @@ class sociosController extends Controller
 				'logo' => 'electrica-sb',
 				'numFotos' => 6,
 				'razonSocial' => 'Electrica SB',
-				'tel' => '011 61201777 | 0220-4120012 | 011-26434637',
+				'tel' => '0220-4120012 | 011-26434637',
 				'web' => 'www.electricasb.com',
 				'correo' => 'info@electricasb.com',
 				'ciudad' => 'Merlo',
@@ -30,7 +30,7 @@ class sociosController extends Controller
 						"@type" : "LocalBusiness",
 						"name" : "Electrica SB",
 						"image" : "http://www.prored.com.ar/views/socios/img/electrica-sb",
-						"telephone" : "011 61201777 | 0220-4120012 | 011-26434637",
+						"telephone" : "0220-4120012 | 011-26434637",
 						"email" : "info@electricasb.com",
 						"address" : {
 						"@type" : "PostalAddress",
